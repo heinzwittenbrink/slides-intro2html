@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc">
   <meta name="author" content="Heinz Wittenbrink">
   <meta name="dcterms.date" content="2017-11-07">
-  <title>HTML for content strategists</title>
+  <title>HTML for content authors</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -66,23 +66,136 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
     <div class="slides">
 
 <section>
-  <h1 class="title">HTML for content strategists</h1>
+  <h1 class="title">HTML for content authors</h1>
   <p class="author">Heinz Wittenbrink</p>
   <p class="date">2017-11-07</p>
 </section>
 
-<section><section id="introduction-to-html" class="titleslide slide level1"><h1>Introduction to HTML</h1></section></section>
-<section><section id="block--and-inline-elements" class="titleslide slide level1"><h1>Block- and Inline-Elements</h1></section><section id="headings" class="slide level2">
+<section><section id="standardization" class="titleslide slide level1"><h1>Standardization</h1></section><section id="w3c" class="slide level2">
+<h2>W3C</h2>
+<p><a href="https://www.w3.org/html/" title="W3C HTML">W3C HTML</a></p>
+</section><section id="whatwg" class="slide level2">
+<h2>WhatWG</h2>
+<ul>
+<li><a href="https://html.spec.whatwg.org/multipage/" title="HTML Standard">HTML Standard</a></li>
+<li>Repository on GitHub: <a href="https://github.com/whatwg/html" title="whatwg/html: HTML Standard">whatwg/html: HTML Standard</a></li>
+</ul>
+</section><section id="history-of-the-standard-beginnings" class="slide level2">
+<h2>History of the standard; Beginnings</h2>
+<ul>
+<li>1992: Tim Berners-Lee: <a href="https://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html" title="Tags used in HTML">Tags used in HTML</a></li>
+<li>1993: <a href="https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt" title="https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt">Hypertext Markup Language (HTML) Internet Draft</a></li>
+<li>1995: <a href="https://tools.ietf.org/html/rfc1866" title="RFC 1866 - The &#39;text/html&#39; Media Type">RFC 1866 - The 'text/html' Media Type</a></li>
+</ul>
+<p>Source: <span class="citation" data-cites="2017c">(“HTML,” <a href="#/ref-2017c">2017</a>)</span></p>
+</section><section id="history-of-the-standard-w3c-recommendations" class="slide level2">
+<h2>History of the standard: W3C Recommendations</h2>
+<ul>
+<li>January 1997: <a href="https://www.w3.org/TR/REC-html32" title="HTML 3.2 Reference Specification">HTML 3.2 Reference Specification</a></li>
+<li>December 1997: <a href="https://www.w3.org/TR/REC-html40-971218/" title="HTML 4.0 Specification">HTML 4.0 Specification</a>: strict - frameset - transitional</li>
+<li>2000/2002: <a href="https://www.w3.org/TR/xhtml1/" title="XHTML 1.0: The Extensible HyperText Markup Language (Second Edition)">XHTML 1.0</a></li>
+</ul>
+<p>Source: <span class="citation" data-cites="2017c">(“HTML,” <a href="#/ref-2017c">2017</a>)</span></p>
+</section><section id="history-of-the-standard-whatwg-w3c" class="slide level2">
+<h2>History of the standard: WhatWG, W3C</h2>
+<ul>
+<li>2004: Gründung der <a href="https://whatwg.org/" title="Web Hypertext Application Technology Working Group">Web Hypertext Application Technology Working Group</a>(WhatWG)</li>
+<li>since 2006: Cooperation of WhatWG and W3C</li>
+<li>July 2012: Degree of separation (WhatWG: HTML as living standard, W3C: Snapshots)</li>
+<li>2014: W3C-Specification <a href="https://www.w3.org/TR/2014/REC-html5-20141028/" title="HTML5">HTML5</a></li>
+</ul>
+<p>Sources: <span class="citation" data-cites="2017c">(“HTML,” <a href="#/ref-2017c">2017</a>)</span>, <span class="citation" data-cites="2017b">(“HTML5,” <a href="#/ref-2017b">2017</a>)</span></p>
+</section></section>
+<section><section id="design-principles" class="titleslide slide level1"><h1>Design principles</h1></section><section id="content-first" class="slide level2">
+<h2>Content first</h2>
+<ul>
+<li>Separation of content and presentation</li>
+<li>Descriptive markup of content</li>
+<li>Additional markup for machines</li>
+</ul>
+</section><section id="progressive-enhancement" class="slide level2">
+<h2>Progressive enhancement</h2>
+<ul>
+<li>Accessibility and future friendliness</li>
+<li>Universal usability of the content</li>
+<li>Device independence</li>
+</ul>
+</section></section>
+<section><section id="basic-elements-for-authoring-text" class="titleslide slide level1"><h1>Basic elements for authoring text</h1></section><section id="block--and-inline-elements" class="slide level2">
+<h2>Block- and Inline-Elements</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements" title="Inline elements - HTML | MDN">Inline elements - HTML | MDN</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements" title="Block-level elements - HTML | MDN">Block-level elements - HTML | MDN</a></li>
+<li>Important: The value of the <code>display</code>-property can be changed via CSS (see <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display" title="display - CSS | MDN">display - CSS | MDN</a>)</li>
+</ul>
+</section><section id="headings" class="slide level2">
 <h2>Headings</h2>
+<ul>
+<li>Six levels from <code>h1</code> to <code>h6</code></li>
+<li>Important for SEO</li>
+<li>Since HTML5: Outlines allow more than one <code>h1</code>-heading</li>
+</ul>
 </section><section id="paragraphs" class="slide level2">
 <h2>Paragraphs</h2>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;p&gt;</span> ... <span class="kw">&lt;/p&gt;</span></code></pre></div>
+<ul>
+<li>Fundamental for structuring text</li>
+<li>Should not be used for presentatiion purposes</li>
+</ul>
 </section><section id="lists" class="slide level2">
 <h2>Lists</h2>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;p&gt;</span>I have lived in the following countries:<span class="kw">&lt;/p&gt;</span>
+<span class="kw">&lt;ul&gt;</span>
+ <span class="kw">&lt;li&gt;</span>Norway
+ <span class="kw">&lt;li&gt;</span>Switzerland
+ <span class="kw">&lt;li&gt;</span>United Kingdom
+ <span class="kw">&lt;li&gt;</span>United States
+ <span class="kw">&lt;/ul&gt;</span>
+ 
+<span class="kw">&lt;ol&gt;</span>
+<span class="kw">&lt;p&gt;</span>I have lived in the following countries:<span class="kw">&lt;/p&gt;</span>
+ <span class="kw">&lt;li&gt;</span>Switzerland
+ <span class="kw">&lt;li&gt;</span>United Kingdom
+ <span class="kw">&lt;li&gt;</span>United States
+ <span class="kw">&lt;li&gt;</span>Norway
+ <span class="kw">&lt;/ol&gt;</span>
+ 
+ <span class="kw">&lt;dl&gt;</span>
+ <span class="kw">&lt;dt&gt;</span> Authors
+ <span class="kw">&lt;dd&gt;</span> John
+ <span class="kw">&lt;dd&gt;</span> Luke
+ <span class="kw">&lt;dt&gt;</span> Editor
+ <span class="kw">&lt;dd&gt;</span> Frank
+<span class="kw">&lt;/dl&gt;</span></code></pre></div>
+<ul>
+<li>Three types: <code>ul</code>, <code>ol</code>, <code>dl</code></li>
+<li>List items can include other blog level elements</li>
+</ul>
+<p>Examples: <span class="citation" data-cites="zotero-2358590-5495">WhatWG (n.d.)</span></p>
 </section><section id="tables" class="slide level2">
 <h2>Tables</h2>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;table&gt;</span>
+ <span class="kw">&lt;caption&gt;</span>Characteristics with positive and negative sides<span class="kw">&lt;/caption&gt;</span>
+ <span class="kw">&lt;thead&gt;</span>
+  <span class="kw">&lt;tr&gt;</span>
+   <span class="kw">&lt;th&gt;</span> Characteristic
+   <span class="kw">&lt;th&gt;</span> Negative
+   <span class="kw">&lt;th&gt;</span> Positive
+ <span class="kw">&lt;tbody&gt;</span>
+  <span class="kw">&lt;tr&gt;</span>
+   <span class="kw">&lt;th&gt;</span> Mood
+   <span class="kw">&lt;td&gt;</span> Sad
+   <span class="kw">&lt;td&gt;</span> Happy
+  <span class="kw">&lt;tr&gt;</span>
+   <span class="kw">&lt;th&gt;</span> Grade
+   <span class="kw">&lt;td&gt;</span> Failing
+   <span class="kw">&lt;td&gt;</span> Passing
+<span class="kw">&lt;/table&gt;</span></code></pre></div>
+<p>Example: <span class="citation" data-cites="zotero-2358590-5495">WhatWG (n.d.)</span></p>
 </section><section id="links" class="slide level2">
 <h2>Links</h2>
-</section><section id="iframes" class="slide level2">
+</section></section>
+<section><section id="media-integration" class="titleslide slide level1"><h1>Media integration</h1></section><section id="iframes" class="slide level2">
 <h2>iframes</h2>
 </section></section>
 <section><section id="new-structural-elements-in-html5" class="titleslide slide level1"><h1>New Structural Elements in HTML5</h1></section></section>
@@ -118,8 +231,19 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <h2>emmet</h2>
 </section><section id="htmlhint" class="slide level2">
 <h2>htmlhint</h2>
-</section><section id="linter-spell-html" class="slide level2">
+</section><section id="linter-spell-html" class="slide level2 unnumbered">
 <h2>linter-spell-html</h2>
+<div id="refs" class="references">
+<div id="ref-2017c">
+<p>HTML. (2017, November). <em>Wikipedia</em>. Retrieved from <a href="https://en.wikipedia.org/w/index.php?title=HTML\&amp;oldid=808774297" class="uri">https://en.wikipedia.org/w/index.php?title=HTML\&amp;oldid=808774297</a></p>
+</div>
+<div id="ref-2017b">
+<p>HTML5. (2017, November). <em>Wikipedia</em>. Retrieved from <a href="https://en.wikipedia.org/w/index.php?title=HTML5\&amp;oldid=808861166" class="uri">https://en.wikipedia.org/w/index.php?title=HTML5\&amp;oldid=808861166</a></p>
+</div>
+<div id="ref-zotero-2358590-5495">
+<p>WhatWG (Ed.). (n.d.). HTML Standard. Retrieved from <a href="https://html.spec.whatwg.org/multipage/introduction.html" class="uri">https://html.spec.whatwg.org/multipage/introduction.html</a></p>
+</div>
+</div>
 </section></section>
     </div>
   </div>
