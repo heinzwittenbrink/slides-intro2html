@@ -5,21 +5,23 @@ institute: M.A. program in content strategy
 date: 2017-11-07
 ---
 
-
-
-
 # Standardization
 
+
 ## W3C
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/0f/CLISK_1334741064.jpg "HTML5-Logo des W3C")
 
 [W3C HTML](https://www.w3.org/html/ "W3C HTML")
 
 ## WhatWG
 
+![](https://resources.whatwg.org/logo.svg "WhatWG Logo"){ width=30% }
+
 - [HTML Standard](https://html.spec.whatwg.org/multipage/ "HTML Standard")
 - Repository on GitHub: [whatwg/html: HTML Standard](https://github.com/whatwg/html "whatwg/html: HTML Standard")
 
-## History of the standard; Beginnings
+## History of the standard: beginnings
 
 - 1992: Tim Berners-Lee: [Tags used in HTML](https://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html "Tags used in HTML")
 - 1993: [Hypertext Markup Language (HTML) Internet Draft](https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt "https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt")
@@ -135,51 +137,145 @@ Examples: @zotero-2358590-5495
 ```
 Example: @zotero-2358590-5495
 
+
 ## Links
 
-# Media integration
 
-## iframes
+```html
+<a href="https://google.com" title="Google Search">Google</a>
+```
+- Links are the most important html elements
+- They can reference document fragments
 
 # New Structural Elements in HTML5
 
-# Multimedia
+## div and span
+
+- `div` and `span` were (and are) used to structure HTML documents mainly for presentation purposes
+- They serve as a base for `id` and `class`-attributes
+- Their use has become obsolete by semantic HTML5 elements
+
+## Semantic Elements in HTML5
+
+
+```html
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+```
+
+Simple Explanation: w3schools: [HTML5 Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp "HTML5 Semantic Elements")
 
 # HTML and XML
 
-# Validating
+## Alternative syntax
 
-# Editing with Atom
+- HTML/HTML5 can be written in HTML and XML Syntax
+- Example of a Doctype Declaration in XHTML
+
+```html
+<!DOCTYPE html PUBLIC
+    "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN"
+    "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+```
+
+Siehe: [W3C QA - Recommended list of Doctype declarations you can use in your Web document](https://www.w3.org/QA/2002/04/valid-dtd-list.html "W3C QA - Recommended list of Doctype declarations you can use in your Web document")
+
+# Validation
+
+## W3C Validation
+
+![[The W3C Markup Validation Service](https://validator.w3.org/ "The W3C Markup Validation Service")](pics/w3c-markup-validation.png){ width=70% }
+
+
+## Browser Addons
+
+- [Html Validator - Add-ons for Firefox](https://addons.mozilla.org/en-US/firefox/addon/html-validator/ "Html Validator - Add-ons for Firefox")
+
+- [Validity - Chrome Web Store](https://chrome.google.com/webstore/detail/validity/bbicmjjbohdfglopkidebfccilipgeif?hl=en-GB "Validity - Chrome Web Store")
+
+## HTML Tidy
+
+- [HTML Tidy Online](https://infohound.net/tidy/ "HTML Tidy Online")
+
+
+# HTML editing with Atom
+
+## Atom as open source editor
+
+- Closely related to Github
+- Using state of the art web technologies
+- Extensiblie architecture
+- Free as in "free speech" and free as in "free beer"
+
+## Relevant core packages
+
+- language-html
+- language-hyperlink
+
+---
+
+![Snippet: html](pics/atom-html-snippet.png){ width=50% }
+
+---
+
+![Available snippets in the command palette](pics/snippets-available.png){ width=80% }
+
+
+--- 
+
+## Command palette and snippets
+
+> If you press `Cmd+Shift+P` while focused in an editor pane, the command palette will pop up. ([Atom Basics](http://flight-manual.atom.io/getting-started/sections/atom-basics/ "Basics"))
+
+> To see all the available snippets for the file type that you currently have open, choose "Snippets: Available" in the Command Palette. ([Snippets](http://flight-manual.atom.io/using-atom/sections/snippets/ "Snippets"))
+
+---
+
+## Relevant community packages
+
+- atom-beautify
+- htmlhint
+- linter-spell-html
+- w3c-validation
+
+---
+
+![htmlhint warning](pics/atom-htmlhint.png){ width=80% }
+
+
+---
+
+![w3c validation warning](pics/atom-w3c-validation.png){ width=60% }
+
+
+---
+
 
 # Documentation
 
-## Mozilla
+## Element References
 
-[Element - HTML | MDN](https://developer.mozilla.org/de/docs/Web/HTML/Element "Element - HTML | MDN")
+- [Element - HTML | MDN](https://developer.mozilla.org/de/docs/Web/HTML/Element "Element - HTML | MDN")
+- [HTML Reference](https://www.w3schools.com/tags/default.asp "HTML Reference")
 
-## Packages
+## Recommended Reading
 
-## language-html
+- [HTML5-Handbuch - Webkompetenz](http://webkompetenz.wikidot.com/docs:html-handbuch "HTML5-Handbuch - Webkompetenz")
+- [A Book Apart, HTML5 For Web Designers](https://abookapart.com/products/html5-for-web-designers "A Book Apart, HTML5 For Web Designers")
 
-> Many Core and Community packages come bundled with their own snippets that are specific to it. For example, the language-html package that provides support for HTML syntax highlighting and grammar comes with dozens of snippets to create many of the various HTML tags you might want to use. If you create a new HTML file in Atom, you can type html and then press Tab and it will expand to:
 
-```html
-<html>
-  <head>
-    <title></title>
-  </head>
-  <body>
+# Reference
 
-  </body>
-</html>
-```
+---
 
-> To see all the available snippets for the file type that you currently have open, choose "Snippets: Available" in the Command Palette.
-
-> In that welcome screen, we are introduced to probably the most important command in Atom, the Command Palette. If you press Cmd+Shift+P while focused in an editor pane, the command palette will pop up.
-
-## emmet
-
-## htmlhint
-
-## linter-spell-html

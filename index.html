@@ -73,15 +73,21 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
 <section><section id="standardization" class="titleslide slide level1"><h1>Standardization</h1></section><section id="w3c" class="slide level2">
 <h2>W3C</h2>
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/CLISK_1334741064.jpg" title="HTML5-Logo des W3C" />
+</figure>
 <p><a href="https://www.w3.org/html/" title="W3C HTML">W3C HTML</a></p>
 </section><section id="whatwg" class="slide level2">
 <h2>WhatWG</h2>
+<figure>
+<img src="https://resources.whatwg.org/logo.svg" title="WhatWG Logo" style="width:30.0%" />
+</figure>
 <ul>
 <li><a href="https://html.spec.whatwg.org/multipage/" title="HTML Standard">HTML Standard</a></li>
 <li>Repository on GitHub: <a href="https://github.com/whatwg/html" title="whatwg/html: HTML Standard">whatwg/html: HTML Standard</a></li>
 </ul>
 </section><section id="history-of-the-standard-beginnings" class="slide level2">
-<h2>History of the standard; Beginnings</h2>
+<h2>History of the standard: beginnings</h2>
 <ul>
 <li>1992: Tim Berners-Lee: <a href="https://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html" title="Tags used in HTML">Tags used in HTML</a></li>
 <li>1993: <a href="https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt" title="https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt">Hypertext Markup Language (HTML) Internet Draft</a></li>
@@ -194,45 +200,132 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p>Example: <span class="citation" data-cites="zotero-2358590-5495">WhatWG (n.d.)</span></p>
 </section><section id="links" class="slide level2">
 <h2>Links</h2>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;a</span><span class="ot"> href=</span><span class="st">&quot;https://google.com&quot;</span><span class="ot"> title=</span><span class="st">&quot;Google Search&quot;</span><span class="kw">&gt;</span>Google<span class="kw">&lt;/a&gt;</span></code></pre></div>
+<ul>
+<li>Links are the most important html elements</li>
+<li>They can reference document fragments</li>
+</ul>
 </section></section>
-<section><section id="media-integration" class="titleslide slide level1"><h1>Media integration</h1></section><section id="iframes" class="slide level2">
-<h2>iframes</h2>
+<section><section id="new-structural-elements-in-html5" class="titleslide slide level1"><h1>New Structural Elements in HTML5</h1></section><section id="div-and-span" class="slide level2">
+<h2>div and span</h2>
+<ul>
+<li><code>div</code> and <code>span</code> were (and are) used to structure HTML documents mainly for presentation purposes</li>
+<li>They serve as a base for <code>id</code> and <code>class</code>-attributes</li>
+<li>Their use has become obsolete by semantic HTML5 elements</li>
+</ul>
+</section><section id="semantic-elements-in-html5" class="slide level2">
+<h2>Semantic Elements in HTML5</h2>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;article&gt;</span>
+<span class="kw">&lt;aside&gt;</span>
+<span class="kw">&lt;details&gt;</span>
+<span class="kw">&lt;figcaption&gt;</span>
+<span class="kw">&lt;figure&gt;</span>
+<span class="kw">&lt;footer&gt;</span>
+<span class="kw">&lt;header&gt;</span>
+<span class="kw">&lt;main&gt;</span>
+<span class="kw">&lt;mark&gt;</span>
+<span class="kw">&lt;nav&gt;</span>
+<span class="kw">&lt;section&gt;</span>
+<span class="kw">&lt;summary&gt;</span>
+<span class="kw">&lt;time&gt;</span></code></pre></div>
+<p>Simple Explanation: w3schools: <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" title="HTML5 Semantic Elements">HTML5 Semantic Elements</a></p>
 </section></section>
-<section><section id="new-structural-elements-in-html5" class="titleslide slide level1"><h1>New Structural Elements in HTML5</h1></section></section>
-<section><section id="multimedia" class="titleslide slide level1"><h1>Multimedia</h1></section></section>
-<section><section id="html-and-xml" class="titleslide slide level1"><h1>HTML and XML</h1></section></section>
-<section><section id="validating" class="titleslide slide level1"><h1>Validating</h1></section></section>
-<section><section id="editing-with-atom" class="titleslide slide level1"><h1>Editing with Atom</h1></section></section>
-<section><section id="documentation" class="titleslide slide level1"><h1>Documentation</h1></section><section id="mozilla" class="slide level2">
-<h2>Mozilla</h2>
-<p><a href="https://developer.mozilla.org/de/docs/Web/HTML/Element" title="Element - HTML | MDN">Element - HTML | MDN</a></p>
-</section><section id="packages" class="slide level2">
-<h2>Packages</h2>
-</section><section id="language-html" class="slide level2">
-<h2>language-html</h2>
-<blockquote>
-<p>Many Core and Community packages come bundled with their own snippets that are specific to it. For example, the language-html package that provides support for HTML syntax highlighting and grammar comes with dozens of snippets to create many of the various HTML tags you might want to use. If you create a new HTML file in Atom, you can type html and then press Tab and it will expand to:</p>
-</blockquote>
-<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;html&gt;</span>
-  <span class="kw">&lt;head&gt;</span>
-    <span class="kw">&lt;title&gt;&lt;/title&gt;</span>
-  <span class="kw">&lt;/head&gt;</span>
-  <span class="kw">&lt;body&gt;</span>
+<section><section id="html-and-xml" class="titleslide slide level1"><h1>HTML and XML</h1></section><section id="alternative-syntax" class="slide level2">
+<h2>Alternative syntax</h2>
+<ul>
+<li>HTML/HTML5 can be written in HTML and XML Syntax</li>
+<li>Example of a Doctype Declaration in XHTML</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html PUBLIC
+    &quot;-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN&quot;
+    &quot;http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd&quot;<span class="dt">&gt;</span></code></pre></div>
+<p>Siehe: <a href="https://www.w3.org/QA/2002/04/valid-dtd-list.html" title="W3C QA - Recommended list of Doctype declarations you can use in your Web document">W3C QA - Recommended list of Doctype declarations you can use in your Web document</a></p>
+</section></section>
+<section><section id="validation" class="titleslide slide level1"><h1>Validation</h1></section><section id="w3c-validation" class="slide level2">
+<h2>W3C Validation</h2>
+<figure>
+<img src="pics/w3c-markup-validation.png" alt="The W3C Markup Validation Service" style="width:70.0%" /><figcaption><a href="https://validator.w3.org/" title="The W3C Markup Validation Service">The W3C Markup Validation Service</a></figcaption>
+</figure>
+</section><section id="browser-addons" class="slide level2">
+<h2>Browser Addons</h2>
+<ul>
+<li><p><a href="https://addons.mozilla.org/en-US/firefox/addon/html-validator/" title="Html Validator - Add-ons for Firefox">Html Validator - Add-ons for Firefox</a></p></li>
+<li><p><a href="https://chrome.google.com/webstore/detail/validity/bbicmjjbohdfglopkidebfccilipgeif?hl=en-GB" title="Validity - Chrome Web Store">Validity - Chrome Web Store</a></p></li>
+</ul>
+</section><section id="html-tidy" class="slide level2">
+<h2>HTML Tidy</h2>
+<ul>
+<li><a href="https://infohound.net/tidy/" title="HTML Tidy Online">HTML Tidy Online</a></li>
+</ul>
+</section></section>
+<section><section id="html-editing-with-atom" class="titleslide slide level1"><h1>HTML editing with Atom</h1></section><section id="atom-as-open-source-editor" class="slide level2">
+<h2>Atom as open source editor</h2>
+<ul>
+<li>Closely related to Github</li>
+<li>Using state of the art web technologies</li>
+<li>Extensiblie architecture</li>
+<li>Free as in &quot;free speech&quot; and free as in &quot;free beer&quot;</li>
+</ul>
+</section><section id="relevant-core-packages" class="slide level2">
+<h2>Relevant core packages</h2>
+<ul>
+<li>language-html</li>
+<li>language-hyperlink</li>
+</ul>
+</section><section class="slide level2">
 
-  <span class="kw">&lt;/body&gt;</span>
-<span class="kw">&lt;/html&gt;</span></code></pre></div>
+<figure>
+<img src="pics/atom-html-snippet.png" alt="Snippet: html" style="width:50.0%" /><figcaption>Snippet: html</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img src="pics/snippets-available.png" alt="Available snippets in the command palette" style="width:80.0%" /><figcaption>Available snippets in the command palette</figcaption>
+</figure>
+</section><section id="command-palette-and-snippets" class="slide level2">
+<h2>Command palette and snippets</h2>
 <blockquote>
-<p>To see all the available snippets for the file type that you currently have open, choose &quot;Snippets: Available&quot; in the Command Palette.</p>
+<p>If you press <code>Cmd+Shift+P</code> while focused in an editor pane, the command palette will pop up. (<a href="http://flight-manual.atom.io/getting-started/sections/atom-basics/" title="Basics">Atom Basics</a>)</p>
 </blockquote>
 <blockquote>
-<p>In that welcome screen, we are introduced to probably the most important command in Atom, the Command Palette. If you press Cmd+Shift+P while focused in an editor pane, the command palette will pop up.</p>
+<p>To see all the available snippets for the file type that you currently have open, choose &quot;Snippets: Available&quot; in the Command Palette. (<a href="http://flight-manual.atom.io/using-atom/sections/snippets/" title="Snippets">Snippets</a>)</p>
 </blockquote>
-</section><section id="emmet" class="slide level2">
-<h2>emmet</h2>
-</section><section id="htmlhint" class="slide level2">
-<h2>htmlhint</h2>
-</section><section id="linter-spell-html" class="slide level2 unnumbered">
-<h2>linter-spell-html</h2>
+</section><section id="relevant-community-packages" class="slide level2">
+<h2>Relevant community packages</h2>
+<ul>
+<li>atom-beautify</li>
+<li>htmlhint</li>
+<li>linter-spell-html</li>
+<li>w3c-validation</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img src="pics/atom-htmlhint.png" alt="htmlhint warning" style="width:80.0%" /><figcaption>htmlhint warning</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img src="pics/atom-w3c-validation.png" alt="w3c validation warning" style="width:60.0%" /><figcaption>w3c validation warning</figcaption>
+</figure>
+</section><section class="slide level2">
+
+</section></section>
+<section><section id="documentation" class="titleslide slide level1"><h1>Documentation</h1></section><section id="element-references" class="slide level2">
+<h2>Element References</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/de/docs/Web/HTML/Element" title="Element - HTML | MDN">Element - HTML | MDN</a></li>
+<li><a href="https://www.w3schools.com/tags/default.asp" title="HTML Reference">HTML Reference</a></li>
+</ul>
+</section><section id="recommended-reading" class="slide level2">
+<h2>Recommended Reading</h2>
+<ul>
+<li><a href="http://webkompetenz.wikidot.com/docs:html-handbuch" title="HTML5-Handbuch - Webkompetenz">HTML5-Handbuch - Webkompetenz</a></li>
+<li><a href="https://abookapart.com/products/html5-for-web-designers" title="A Book Apart, HTML5 For Web Designers">A Book Apart, HTML5 For Web Designers</a></li>
+</ul>
+</section></section>
+<section><section id="reference" class="titleslide slide level1"><h1>Reference</h1></section><section class="slide level2">
+
 <div id="refs" class="references">
 <div id="ref-2017c">
 <p>HTML. (2017, November). <em>Wikipedia</em>. Retrieved from <a href="https://en.wikipedia.org/w/index.php?title=HTML\&amp;oldid=808774297" class="uri">https://en.wikipedia.org/w/index.php?title=HTML\&amp;oldid=808774297</a></p>
