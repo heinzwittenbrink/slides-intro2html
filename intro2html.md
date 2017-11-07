@@ -206,7 +206,18 @@ Siehe: [W3C QA - Recommended list of Doctype declarations you can use in your We
 
 ## HTML Tidy
 
-- [HTML Tidy Online](https://infohound.net/tidy/ "HTML Tidy Online")
+- [HTML Tidy Online](https://infohound.net/tidy/ "HTML Tidy Online"){ width=70% }
+
+
+# Source Code
+
+## View Source
+
+![Source code of a part of Resilient Web Design](pics/book-keith-sourcecode.png){ width=70% }
+
+## Developer Tools
+
+![Structure of a part of Resilient Web Design](pics/book-keith-developertools.png){ width=70% }
 
 
 # HTML editing with Atom
