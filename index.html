@@ -4,73 +4,49 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="Heinz Wittenbrink">
-  <meta name="dcterms.date" content="2017-12-04">
+  <meta name="dcterms.date" content="2017-11-07">
   <title>HTML for content authors</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
   <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.line-block{white-space: pre-line;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
-  </style>
-  <style type="text/css">
-a.sourceLine { display: inline-block; min-height: 1.25em; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; }
-@media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
-}
-pre.numberSource a.sourceLine
-  { position: relative; }
-pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
-    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-@media screen {
-a.sourceLine::before { text-decoration: underline; color: initial; }
-}
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.bn { color: #40a070; } /* BaseN */
-code span.fl { color: #40a070; } /* Float */
-code span.ch { color: #4070a0; } /* Char */
-code span.st { color: #4070a0; } /* String */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.ot { color: #007020; } /* Other */
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.fu { color: #06287e; } /* Function */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-code span.cn { color: #880000; } /* Constant */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.im { } /* Import */
-code span.va { color: #19177c; } /* Variable */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.op { color: #666666; } /* Operator */
-code span.bu { } /* BuiltIn */
-code span.ex { } /* Extension */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.at { color: #7d9029; } /* Attribute */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
   </style>
   <link rel="stylesheet" href="reveal.js/css/theme/white.css" id="theme">
   <!-- Printing and PDF exports -->
@@ -92,26 +68,30 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 <section>
   <h1 class="title">HTML for content authors</h1>
   <p class="author">Heinz Wittenbrink</p>
-  <p class="date">2017-12-04</p>
+  <p class="date">2017-11-07</p>
 </section>
 
-<section><section id="standardization" class="title-slide slide level1"><h1>Standardization</h1></section><section id="w3c" class="slide level2">
+<section><section id="standardization" class="titleslide slide level1"><h1>Standardization</h1></section><section id="w3c" class="slide level2">
 <h2>W3C</h2>
-<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/0/0f/CLISK_1334741064.jpg" title="HTML5-Logo des W3C" /></p>
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/CLISK_1334741064.jpg" title="HTML5-Logo des W3C" />
+</figure>
 <p><a href="https://www.w3.org/html/" title="W3C HTML">W3C HTML</a></p>
 </section><section id="whatwg" class="slide level2">
 <h2>WhatWG</h2>
-<p><img data-src="https://resources.whatwg.org/logo.svg" title="WhatWG Logo" style="width:30.0%" /></p>
+<figure>
+<img src="https://resources.whatwg.org/logo.svg" title="WhatWG Logo" style="width:30.0%" />
+</figure>
 <ul>
 <li><a href="https://html.spec.whatwg.org/multipage/" title="HTML Standard">HTML Standard</a></li>
 <li>Repository on GitHub: <a href="https://github.com/whatwg/html" title="whatwg/html: HTML Standard">whatwg/html: HTML Standard</a></li>
 </ul>
 </section><section id="history-of-the-standard-beginnings" class="slide level2">
-<h2>History of the standard: Beginnings</h2>
+<h2>History of the standard: beginnings</h2>
 <ul>
 <li>1992: Tim Berners-Lee: <a href="https://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html" title="Tags used in HTML">Tags used in HTML</a></li>
 <li>1993: <a href="https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt" title="https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt">Hypertext Markup Language (HTML) Internet Draft</a></li>
-<li>1995: <a href="https://tools.ietf.org/html/rfc1866" title="RFC 1866 - The &#39;text/html&#39; Media Type">RFC 1866 - The ‘text/html’ Media Type</a></li>
+<li>1995: <a href="https://tools.ietf.org/html/rfc1866" title="RFC 1866 - The &#39;text/html&#39; Media Type">RFC 1866 - The 'text/html' Media Type</a></li>
 </ul>
 <p>Source: <span class="citation" data-cites="2017c">(“HTML,” <a href="#/ref-2017c">2017</a>)</span></p>
 </section><section id="history-of-the-standard-w3c-recommendations" class="slide level2">
@@ -132,7 +112,7 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 </ul>
 <p>Sources: <span class="citation" data-cites="2017c">(“HTML,” <a href="#/ref-2017c">2017</a>)</span>, <span class="citation" data-cites="2017b">(“HTML5,” <a href="#/ref-2017b">2017</a>)</span></p>
 </section></section>
-<section><section id="design-principles" class="title-slide slide level1"><h1>Design principles</h1></section><section id="content-first" class="slide level2">
+<section><section id="design-principles" class="titleslide slide level1"><h1>Design principles</h1></section><section id="content-first" class="slide level2">
 <h2>Content first</h2>
 <ul>
 <li>Separation of content and presentation</li>
@@ -147,19 +127,12 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 <li>Device independence</li>
 </ul>
 </section></section>
-<section><section id="basic-elements-for-authoring-text" class="title-slide slide level1"><h1>Basic elements for authoring text</h1></section><section id="block--and-inline-elements" class="slide level2">
+<section><section id="basic-elements-for-authoring-text" class="titleslide slide level1"><h1>Basic elements for authoring text</h1></section><section id="block--and-inline-elements" class="slide level2">
 <h2>Block- and Inline-Elements</h2>
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements" title="Inline elements - HTML | MDN">Inline elements - HTML | MDN</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements" title="Block-level elements - HTML | MDN">Block-level elements - HTML | MDN</a></li>
 <li>Important: The value of the <code>display</code>-property can be changed via CSS (see <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display" title="display - CSS | MDN">display - CSS | MDN</a>)</li>
-</ul>
-</section><section id="spanand-div" class="slide level2">
-<h2><code>span</code>and <code>div</code></h2>
-<ul>
-<li><code>span</code> says only: This is an inline element.</li>
-<li><code>div</code> says only: This is a block element.</li>
-<li>Both elements are used mainly for formatting purposes in combination with the attributs <code>id</code>and <code>class</code>.</li>
 </ul>
 </section><section id="headings" class="slide level2">
 <h2>Headings</h2>
@@ -170,36 +143,36 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 </ul>
 </section><section id="paragraphs" class="slide level2">
 <h2>Paragraphs</h2>
-<pre class="sourceCode html" id="cb1"><code class="sourceCode html"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">&lt;p&gt;</span> ... <span class="kw">&lt;/p&gt;</span></a></code></pre>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;p&gt;</span> ... <span class="kw">&lt;/p&gt;</span></code></pre></div>
 <ul>
 <li>Fundamental for structuring text</li>
-<li>Should not be used for presentation purposes</li>
+<li>Should not be used for presentatiion purposes</li>
 </ul>
 </section><section id="lists" class="slide level2">
 <h2>Lists</h2>
-<pre class="sourceCode html" id="cb2"><code class="sourceCode html"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw">&lt;p&gt;</span>I have lived in the following countries:<span class="kw">&lt;/p&gt;</span></a>
-<a class="sourceLine" id="cb2-2" data-line-number="2"><span class="kw">&lt;ul&gt;</span></a>
-<a class="sourceLine" id="cb2-3" data-line-number="3"> <span class="kw">&lt;li&gt;</span>Norway</a>
-<a class="sourceLine" id="cb2-4" data-line-number="4"> <span class="kw">&lt;li&gt;</span>Switzerland</a>
-<a class="sourceLine" id="cb2-5" data-line-number="5"> <span class="kw">&lt;li&gt;</span>United Kingdom</a>
-<a class="sourceLine" id="cb2-6" data-line-number="6"> <span class="kw">&lt;li&gt;</span>United States</a>
-<a class="sourceLine" id="cb2-7" data-line-number="7"> <span class="kw">&lt;/ul&gt;</span></a>
-<a class="sourceLine" id="cb2-8" data-line-number="8"> </a>
-<a class="sourceLine" id="cb2-9" data-line-number="9"><span class="kw">&lt;ol&gt;</span></a>
-<a class="sourceLine" id="cb2-10" data-line-number="10"><span class="kw">&lt;p&gt;</span>I have lived in the following countries:<span class="kw">&lt;/p&gt;</span></a>
-<a class="sourceLine" id="cb2-11" data-line-number="11"> <span class="kw">&lt;li&gt;</span>Switzerland</a>
-<a class="sourceLine" id="cb2-12" data-line-number="12"> <span class="kw">&lt;li&gt;</span>United Kingdom</a>
-<a class="sourceLine" id="cb2-13" data-line-number="13"> <span class="kw">&lt;li&gt;</span>United States</a>
-<a class="sourceLine" id="cb2-14" data-line-number="14"> <span class="kw">&lt;li&gt;</span>Norway</a>
-<a class="sourceLine" id="cb2-15" data-line-number="15"> <span class="kw">&lt;/ol&gt;</span></a>
-<a class="sourceLine" id="cb2-16" data-line-number="16"> </a>
-<a class="sourceLine" id="cb2-17" data-line-number="17"> <span class="kw">&lt;dl&gt;</span></a>
-<a class="sourceLine" id="cb2-18" data-line-number="18"> <span class="kw">&lt;dt&gt;</span> Authors</a>
-<a class="sourceLine" id="cb2-19" data-line-number="19"> <span class="kw">&lt;dd&gt;</span> John</a>
-<a class="sourceLine" id="cb2-20" data-line-number="20"> <span class="kw">&lt;dd&gt;</span> Luke</a>
-<a class="sourceLine" id="cb2-21" data-line-number="21"> <span class="kw">&lt;dt&gt;</span> Editor</a>
-<a class="sourceLine" id="cb2-22" data-line-number="22"> <span class="kw">&lt;dd&gt;</span> Frank</a>
-<a class="sourceLine" id="cb2-23" data-line-number="23"><span class="kw">&lt;/dl&gt;</span></a></code></pre>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;p&gt;</span>I have lived in the following countries:<span class="kw">&lt;/p&gt;</span>
+<span class="kw">&lt;ul&gt;</span>
+ <span class="kw">&lt;li&gt;</span>Norway
+ <span class="kw">&lt;li&gt;</span>Switzerland
+ <span class="kw">&lt;li&gt;</span>United Kingdom
+ <span class="kw">&lt;li&gt;</span>United States
+ <span class="kw">&lt;/ul&gt;</span>
+ 
+<span class="kw">&lt;ol&gt;</span>
+<span class="kw">&lt;p&gt;</span>I have lived in the following countries:<span class="kw">&lt;/p&gt;</span>
+ <span class="kw">&lt;li&gt;</span>Switzerland
+ <span class="kw">&lt;li&gt;</span>United Kingdom
+ <span class="kw">&lt;li&gt;</span>United States
+ <span class="kw">&lt;li&gt;</span>Norway
+ <span class="kw">&lt;/ol&gt;</span>
+ 
+ <span class="kw">&lt;dl&gt;</span>
+ <span class="kw">&lt;dt&gt;</span> Authors
+ <span class="kw">&lt;dd&gt;</span> John
+ <span class="kw">&lt;dd&gt;</span> Luke
+ <span class="kw">&lt;dt&gt;</span> Editor
+ <span class="kw">&lt;dd&gt;</span> Frank
+<span class="kw">&lt;/dl&gt;</span></code></pre></div>
 <ul>
 <li>Three types: <code>ul</code>, <code>ol</code>, <code>dl</code></li>
 <li>List items can include other blog level elements</li>
@@ -207,33 +180,33 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 <p>Examples: <span class="citation" data-cites="zotero-2358590-5495">WhatWG (n.d.)</span></p>
 </section><section id="tables" class="slide level2">
 <h2>Tables</h2>
-<pre class="sourceCode html" id="cb3"><code class="sourceCode html"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="kw">&lt;table&gt;</span></a>
-<a class="sourceLine" id="cb3-2" data-line-number="2"> <span class="kw">&lt;caption&gt;</span>Characteristics with positive and negative sides<span class="kw">&lt;/caption&gt;</span></a>
-<a class="sourceLine" id="cb3-3" data-line-number="3"> <span class="kw">&lt;thead&gt;</span></a>
-<a class="sourceLine" id="cb3-4" data-line-number="4">  <span class="kw">&lt;tr&gt;</span></a>
-<a class="sourceLine" id="cb3-5" data-line-number="5">   <span class="kw">&lt;th&gt;</span> Characteristic</a>
-<a class="sourceLine" id="cb3-6" data-line-number="6">   <span class="kw">&lt;th&gt;</span> Negative</a>
-<a class="sourceLine" id="cb3-7" data-line-number="7">   <span class="kw">&lt;th&gt;</span> Positive</a>
-<a class="sourceLine" id="cb3-8" data-line-number="8"> <span class="kw">&lt;tbody&gt;</span></a>
-<a class="sourceLine" id="cb3-9" data-line-number="9">  <span class="kw">&lt;tr&gt;</span></a>
-<a class="sourceLine" id="cb3-10" data-line-number="10">   <span class="kw">&lt;th&gt;</span> Mood</a>
-<a class="sourceLine" id="cb3-11" data-line-number="11">   <span class="kw">&lt;td&gt;</span> Sad</a>
-<a class="sourceLine" id="cb3-12" data-line-number="12">   <span class="kw">&lt;td&gt;</span> Happy</a>
-<a class="sourceLine" id="cb3-13" data-line-number="13">  <span class="kw">&lt;tr&gt;</span></a>
-<a class="sourceLine" id="cb3-14" data-line-number="14">   <span class="kw">&lt;th&gt;</span> Grade</a>
-<a class="sourceLine" id="cb3-15" data-line-number="15">   <span class="kw">&lt;td&gt;</span> Failing</a>
-<a class="sourceLine" id="cb3-16" data-line-number="16">   <span class="kw">&lt;td&gt;</span> Passing</a>
-<a class="sourceLine" id="cb3-17" data-line-number="17"><span class="kw">&lt;/table&gt;</span></a></code></pre>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;table&gt;</span>
+ <span class="kw">&lt;caption&gt;</span>Characteristics with positive and negative sides<span class="kw">&lt;/caption&gt;</span>
+ <span class="kw">&lt;thead&gt;</span>
+  <span class="kw">&lt;tr&gt;</span>
+   <span class="kw">&lt;th&gt;</span> Characteristic
+   <span class="kw">&lt;th&gt;</span> Negative
+   <span class="kw">&lt;th&gt;</span> Positive
+ <span class="kw">&lt;tbody&gt;</span>
+  <span class="kw">&lt;tr&gt;</span>
+   <span class="kw">&lt;th&gt;</span> Mood
+   <span class="kw">&lt;td&gt;</span> Sad
+   <span class="kw">&lt;td&gt;</span> Happy
+  <span class="kw">&lt;tr&gt;</span>
+   <span class="kw">&lt;th&gt;</span> Grade
+   <span class="kw">&lt;td&gt;</span> Failing
+   <span class="kw">&lt;td&gt;</span> Passing
+<span class="kw">&lt;/table&gt;</span></code></pre></div>
 <p>Example: <span class="citation" data-cites="zotero-2358590-5495">WhatWG (n.d.)</span></p>
 </section><section id="links" class="slide level2">
 <h2>Links</h2>
-<pre class="sourceCode html" id="cb4"><code class="sourceCode html"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="kw">&lt;a</span><span class="ot"> href=</span><span class="st">&quot;https://google.com&quot;</span><span class="ot"> title=</span><span class="st">&quot;Google Search&quot;</span><span class="kw">&gt;</span>Google<span class="kw">&lt;/a&gt;</span></a></code></pre>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;a</span><span class="ot"> href=</span><span class="st">&quot;https://google.com&quot;</span><span class="ot"> title=</span><span class="st">&quot;Google Search&quot;</span><span class="kw">&gt;</span>Google<span class="kw">&lt;/a&gt;</span></code></pre></div>
 <ul>
 <li>Links are the most important html elements</li>
 <li>They can reference document fragments</li>
 </ul>
 </section></section>
-<section><section id="new-structural-elements-in-html5" class="title-slide slide level1"><h1>New Structural Elements in HTML5</h1></section><section id="div-and-span" class="slide level2">
+<section><section id="new-structural-elements-in-html5" class="titleslide slide level1"><h1>New Structural Elements in HTML5</h1></section><section id="div-and-span" class="slide level2">
 <h2>div and span</h2>
 <ul>
 <li><code>div</code> and <code>span</code> were (and are) used to structure HTML documents mainly for presentation purposes</li>
@@ -242,36 +215,36 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 </ul>
 </section><section id="semantic-elements-in-html5" class="slide level2">
 <h2>Semantic Elements in HTML5</h2>
-<pre class="sourceCode html" id="cb5"><code class="sourceCode html"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="kw">&lt;article&gt;</span></a>
-<a class="sourceLine" id="cb5-2" data-line-number="2"><span class="kw">&lt;aside&gt;</span></a>
-<a class="sourceLine" id="cb5-3" data-line-number="3"><span class="kw">&lt;details&gt;</span></a>
-<a class="sourceLine" id="cb5-4" data-line-number="4"><span class="kw">&lt;figcaption&gt;</span></a>
-<a class="sourceLine" id="cb5-5" data-line-number="5"><span class="kw">&lt;figure&gt;</span></a>
-<a class="sourceLine" id="cb5-6" data-line-number="6"><span class="kw">&lt;footer&gt;</span></a>
-<a class="sourceLine" id="cb5-7" data-line-number="7"><span class="kw">&lt;header&gt;</span></a>
-<a class="sourceLine" id="cb5-8" data-line-number="8"><span class="kw">&lt;main&gt;</span></a>
-<a class="sourceLine" id="cb5-9" data-line-number="9"><span class="kw">&lt;mark&gt;</span></a>
-<a class="sourceLine" id="cb5-10" data-line-number="10"><span class="kw">&lt;nav&gt;</span></a>
-<a class="sourceLine" id="cb5-11" data-line-number="11"><span class="kw">&lt;section&gt;</span></a>
-<a class="sourceLine" id="cb5-12" data-line-number="12"><span class="kw">&lt;summary&gt;</span></a>
-<a class="sourceLine" id="cb5-13" data-line-number="13"><span class="kw">&lt;time&gt;</span></a></code></pre>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;article&gt;</span>
+<span class="kw">&lt;aside&gt;</span>
+<span class="kw">&lt;details&gt;</span>
+<span class="kw">&lt;figcaption&gt;</span>
+<span class="kw">&lt;figure&gt;</span>
+<span class="kw">&lt;footer&gt;</span>
+<span class="kw">&lt;header&gt;</span>
+<span class="kw">&lt;main&gt;</span>
+<span class="kw">&lt;mark&gt;</span>
+<span class="kw">&lt;nav&gt;</span>
+<span class="kw">&lt;section&gt;</span>
+<span class="kw">&lt;summary&gt;</span>
+<span class="kw">&lt;time&gt;</span></code></pre></div>
 <p>Simple Explanation: w3schools: <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" title="HTML5 Semantic Elements">HTML5 Semantic Elements</a></p>
 </section></section>
-<section><section id="html-and-xml" class="title-slide slide level1"><h1>HTML and XML</h1></section><section id="alternative-syntax" class="slide level2">
+<section><section id="html-and-xml" class="titleslide slide level1"><h1>HTML and XML</h1></section><section id="alternative-syntax" class="slide level2">
 <h2>Alternative syntax</h2>
 <ul>
 <li>HTML/HTML5 can be written in HTML and XML Syntax</li>
 <li>Example of a Doctype Declaration in XHTML</li>
 </ul>
-<pre class="sourceCode html" id="cb6"><code class="sourceCode html"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="dt">&lt;!DOCTYPE </span>html PUBLIC</a>
-<a class="sourceLine" id="cb6-2" data-line-number="2">    &quot;-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN&quot;</a>
-<a class="sourceLine" id="cb6-3" data-line-number="3">    &quot;http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd&quot;<span class="dt">&gt;</span></a></code></pre>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="dt">&lt;!DOCTYPE </span>html PUBLIC
+    &quot;-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN&quot;
+    &quot;http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd&quot;<span class="dt">&gt;</span></code></pre></div>
 <p>Siehe: <a href="https://www.w3.org/QA/2002/04/valid-dtd-list.html" title="W3C QA - Recommended list of Doctype declarations you can use in your Web document">W3C QA - Recommended list of Doctype declarations you can use in your Web document</a></p>
 </section></section>
-<section><section id="validation" class="title-slide slide level1"><h1>Validation</h1></section><section id="w3c-validation" class="slide level2">
+<section><section id="validation" class="titleslide slide level1"><h1>Validation</h1></section><section id="w3c-validation" class="slide level2">
 <h2>W3C Validation</h2>
 <figure>
-<img data-src="pics/w3c-markup-validation.png" alt="The W3C Markup Validation Service" style="width:70.0%" /><figcaption><a href="https://validator.w3.org/" title="The W3C Markup Validation Service">The W3C Markup Validation Service</a></figcaption>
+<img src="pics/w3c-markup-validation.png" alt="The W3C Markup Validation Service" style="width:70.0%" /><figcaption><a href="https://validator.w3.org/" title="The W3C Markup Validation Service">The W3C Markup Validation Service</a></figcaption>
 </figure>
 </section><section id="browser-addons" class="slide level2">
 <h2>Browser Addons</h2>
@@ -285,24 +258,24 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 <li><a href="https://infohound.net/tidy/" width="70%" title="HTML Tidy Online">HTML Tidy Online</a></li>
 </ul>
 </section></section>
-<section><section id="source-code" class="title-slide slide level1"><h1>Source Code</h1></section><section id="view-source" class="slide level2">
+<section><section id="source-code" class="titleslide slide level1"><h1>Source Code</h1></section><section id="view-source" class="slide level2">
 <h2>View Source</h2>
 <figure>
-<img data-src="pics/book-keith-sourcecode.png" alt="Source code of a part of Resilient Web Design" style="width:70.0%" /><figcaption>Source code of a part of Resilient Web Design</figcaption>
+<img src="pics/book-keith-sourcecode.png" alt="Source code of a part of Resilient Web Design" style="width:70.0%" /><figcaption>Source code of a part of Resilient Web Design</figcaption>
 </figure>
 </section><section id="developer-tools" class="slide level2">
 <h2>Developer Tools</h2>
 <figure>
-<img data-src="pics/book-keith-developertools.png" alt="Structure of a part of Resilient Web Design" style="width:70.0%" /><figcaption>Structure of a part of Resilient Web Design</figcaption>
+<img src="pics/book-keith-developertools.png" alt="Structure of a part of Resilient Web Design" style="width:70.0%" /><figcaption>Structure of a part of Resilient Web Design</figcaption>
 </figure>
 </section></section>
-<section><section id="html-editing-with-atom" class="title-slide slide level1"><h1>HTML editing with Atom</h1></section><section id="atom-as-open-source-editor" class="slide level2">
+<section><section id="html-editing-with-atom" class="titleslide slide level1"><h1>HTML editing with Atom</h1></section><section id="atom-as-open-source-editor" class="slide level2">
 <h2>Atom as open source editor</h2>
 <ul>
 <li>Closely related to Github</li>
 <li>Using state of the art web technologies</li>
 <li>Extensiblie architecture</li>
-<li>Free as in “free speech” and free as in “free beer”</li>
+<li>Free as in &quot;free speech&quot; and free as in &quot;free beer&quot;</li>
 </ul>
 </section><section id="relevant-core-packages" class="slide level2">
 <h2>Relevant core packages</h2>
@@ -313,12 +286,12 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 </section><section class="slide level2">
 
 <figure>
-<img data-src="pics/atom-html-snippet.png" alt="Snippet: html" style="width:50.0%" /><figcaption>Snippet: html</figcaption>
+<img src="pics/atom-html-snippet.png" alt="Snippet: html" style="width:50.0%" /><figcaption>Snippet: html</figcaption>
 </figure>
 </section><section class="slide level2">
 
 <figure>
-<img data-src="pics/snippets-available.png" alt="Available snippets in the command palette" style="width:80.0%" /><figcaption>Available snippets in the command palette</figcaption>
+<img src="pics/snippets-available.png" alt="Available snippets in the command palette" style="width:80.0%" /><figcaption>Available snippets in the command palette</figcaption>
 </figure>
 </section><section id="command-palette-and-snippets" class="slide level2">
 <h2>Command palette and snippets</h2>
@@ -326,7 +299,7 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 <p>If you press <code>Cmd+Shift+P</code> while focused in an editor pane, the command palette will pop up. (<a href="http://flight-manual.atom.io/getting-started/sections/atom-basics/" title="Basics">Atom Basics</a>)</p>
 </blockquote>
 <blockquote>
-<p>To see all the available snippets for the file type that you currently have open, choose “Snippets: Available” in the Command Palette. (<a href="http://flight-manual.atom.io/using-atom/sections/snippets/" title="Snippets">Snippets</a>)</p>
+<p>To see all the available snippets for the file type that you currently have open, choose &quot;Snippets: Available&quot; in the Command Palette. (<a href="http://flight-manual.atom.io/using-atom/sections/snippets/" title="Snippets">Snippets</a>)</p>
 </blockquote>
 </section><section id="relevant-community-packages" class="slide level2">
 <h2>Relevant community packages</h2>
@@ -339,17 +312,17 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 </section><section class="slide level2">
 
 <figure>
-<img data-src="pics/atom-htmlhint.png" alt="htmlhint warning" style="width:80.0%" /><figcaption>htmlhint warning</figcaption>
+<img src="pics/atom-htmlhint.png" alt="htmlhint warning" style="width:80.0%" /><figcaption>htmlhint warning</figcaption>
 </figure>
 </section><section class="slide level2">
 
 <figure>
-<img data-src="pics/atom-w3c-validation.png" alt="w3c validation warning" style="width:60.0%" /><figcaption>w3c validation warning</figcaption>
+<img src="pics/atom-w3c-validation.png" alt="w3c validation warning" style="width:60.0%" /><figcaption>w3c validation warning</figcaption>
 </figure>
 </section><section class="slide level2">
 
 </section></section>
-<section><section id="documentation" class="title-slide slide level1"><h1>Documentation</h1></section><section id="element-references" class="slide level2">
+<section><section id="documentation" class="titleslide slide level1"><h1>Documentation</h1></section><section id="element-references" class="slide level2">
 <h2>Element References</h2>
 <ul>
 <li><a href="https://developer.mozilla.org/de/docs/Web/HTML/Element" title="Element - HTML | MDN">Element - HTML | MDN</a></li>
@@ -362,7 +335,7 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 <li><a href="https://abookapart.com/products/html5-for-web-designers" title="A Book Apart, HTML5 For Web Designers">A Book Apart, HTML5 For Web Designers</a></li>
 </ul>
 </section></section>
-<section><section id="reference" class="title-slide slide level1"><h1>Reference</h1></section><section class="slide level2">
+<section><section id="reference" class="titleslide slide level1"><h1>Reference</h1></section><section class="slide level2">
 
 <div id="refs" class="references">
 <div id="ref-2017c">
@@ -387,14 +360,12 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
       // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
-        // Push each slide change to the browser history
-        history: true,
 
         // Optional reveal.js plugins
         dependencies: [
           { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
           { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
-          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+              { src: 'reveal.js/plugin/notes/notes.js', async: true }
         ]
       });
     </script>
