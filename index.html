@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/reveal.css">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
   <style type="text/css">
       code{white-space: pre-wrap;}
       span.smallcaps{font-variant: small-caps;}
@@ -72,17 +72,17 @@ code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annot
 code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
   </style>
-  <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/theme/white.css" id="theme">
+  <link rel="stylesheet" href="reveal.js/css/theme/white.css" id="theme">
   <!-- Printing and PDF exports -->
   <script>
     var link = document.createElement( 'link' );
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = window.location.search.match( /print-pdf/gi ) ? 'http://lab.hakim.se/reveal-js/css/print/pdf.css' : 'http://lab.hakim.se/reveal-js/css/print/paper.css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
     document.getElementsByTagName( 'head' )[0].appendChild( link );
   </script>
   <!--[if lt IE 9]>
-  <script src="http://lab.hakim.se/reveal-js/lib/js/html5shiv.js"></script>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
   <![endif]-->
 </head>
 <body>
@@ -113,7 +113,7 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 <li>1993: <a href="https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt" title="https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt">Hypertext Markup Language (HTML) Internet Draft</a></li>
 <li>1995: <a href="https://tools.ietf.org/html/rfc1866" title="RFC 1866 - The &#39;text/html&#39; Media Type">RFC 1866 - The ‘text/html’ Media Type</a></li>
 </ul>
-<p>Source: <span class="citation" data-cites="2017c">@2017c</span></p>
+<p>Source: <span class="citation" data-cites="2017c">(“HTML,” <a href="#/ref-2017c">2017</a>)</span></p>
 </section><section id="history-of-the-standard-w3c-recommendations" class="slide level2">
 <h2>History of the standard: W3C Recommendations</h2>
 <ul>
@@ -121,7 +121,7 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 <li>December 1997: <a href="https://www.w3.org/TR/REC-html40-971218/" title="HTML 4.0 Specification">HTML 4.0 Specification</a>: strict - frameset - transitional</li>
 <li>2000/2002: <a href="https://www.w3.org/TR/xhtml1/" title="XHTML 1.0: The Extensible HyperText Markup Language (Second Edition)">XHTML 1.0</a></li>
 </ul>
-<p>Source: <span class="citation" data-cites="2017c">@2017c</span></p>
+<p>Source: <span class="citation" data-cites="2017c">(“HTML,” <a href="#/ref-2017c">2017</a>)</span></p>
 </section><section id="history-of-the-standard-whatwg-w3c" class="slide level2">
 <h2>History of the standard: WhatWG, W3C</h2>
 <ul>
@@ -130,7 +130,7 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 <li>July 2012: Degree of separation (WhatWG: HTML as living standard, W3C: Snapshots)</li>
 <li>2014: W3C-Specification <a href="https://www.w3.org/TR/2014/REC-html5-20141028/" title="HTML5">HTML5</a></li>
 </ul>
-<p>Sources: <span class="citation" data-cites="2017c">@2017c</span>, <span class="citation" data-cites="2017b">@2017b</span></p>
+<p>Sources: <span class="citation" data-cites="2017c">(“HTML,” <a href="#/ref-2017c">2017</a>)</span>, <span class="citation" data-cites="2017b">(“HTML5,” <a href="#/ref-2017b">2017</a>)</span></p>
 </section></section>
 <section><section id="design-principles" class="title-slide slide level1"><h1>Design principles</h1></section><section id="content-first" class="slide level2">
 <h2>Content first</h2>
@@ -204,7 +204,7 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 <li>Three types: <code>ul</code>, <code>ol</code>, <code>dl</code></li>
 <li>List items can include other blog level elements</li>
 </ul>
-<p>Examples: <span class="citation" data-cites="zotero-2358590-5495">@zotero-2358590-5495</span></p>
+<p>Examples: <span class="citation" data-cites="zotero-2358590-5495">WhatWG (n.d.)</span></p>
 </section><section id="tables" class="slide level2">
 <h2>Tables</h2>
 <pre class="sourceCode html" id="cb3"><code class="sourceCode html"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="kw">&lt;table&gt;</span></a>
@@ -224,7 +224,7 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 <a class="sourceLine" id="cb3-15" data-line-number="15">   <span class="kw">&lt;td&gt;</span> Failing</a>
 <a class="sourceLine" id="cb3-16" data-line-number="16">   <span class="kw">&lt;td&gt;</span> Passing</a>
 <a class="sourceLine" id="cb3-17" data-line-number="17"><span class="kw">&lt;/table&gt;</span></a></code></pre>
-<p>Example: <span class="citation" data-cites="zotero-2358590-5495">@zotero-2358590-5495</span></p>
+<p>Example: <span class="citation" data-cites="zotero-2358590-5495">WhatWG (n.d.)</span></p>
 </section><section id="links" class="slide level2">
 <h2>Links</h2>
 <pre class="sourceCode html" id="cb4"><code class="sourceCode html"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="kw">&lt;a</span><span class="ot"> href=</span><span class="st">&quot;https://google.com&quot;</span><span class="ot"> title=</span><span class="st">&quot;Google Search&quot;</span><span class="kw">&gt;</span>Google<span class="kw">&lt;/a&gt;</span></a></code></pre>
@@ -364,12 +364,23 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 </section></section>
 <section><section id="reference" class="title-slide slide level1"><h1>Reference</h1></section><section class="slide level2">
 
+<div id="refs" class="references">
+<div id="ref-2017c">
+<p>HTML. (2017, November). <em>Wikipedia</em>. Retrieved from <a href="https://en.wikipedia.org/w/index.php?title=HTML\&amp;oldid=808774297" class="uri">https://en.wikipedia.org/w/index.php?title=HTML\&amp;oldid=808774297</a></p>
+</div>
+<div id="ref-2017b">
+<p>HTML5. (2017, November). <em>Wikipedia</em>. Retrieved from <a href="https://en.wikipedia.org/w/index.php?title=HTML5\&amp;oldid=808861166" class="uri">https://en.wikipedia.org/w/index.php?title=HTML5\&amp;oldid=808861166</a></p>
+</div>
+<div id="ref-zotero-2358590-5495">
+<p>WhatWG (Ed.). (n.d.). HTML Standard. Retrieved from <a href="https://html.spec.whatwg.org/multipage/introduction.html" class="uri">https://html.spec.whatwg.org/multipage/introduction.html</a></p>
+</div>
+</div>
 </section></section>
     </div>
   </div>
 
-  <script src="http://lab.hakim.se/reveal-js/lib/js/head.min.js"></script>
-  <script src="http://lab.hakim.se/reveal-js/js/reveal.js"></script>
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
 
   <script>
 
@@ -381,9 +392,9 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 
         // Optional reveal.js plugins
         dependencies: [
-          { src: 'http://lab.hakim.se/reveal-js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: 'http://lab.hakim.se/reveal-js/plugin/zoom-js/zoom.js', async: true },
-          { src: 'http://lab.hakim.se/reveal-js/plugin/notes/notes.js', async: true }
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
         ]
       });
     </script>
