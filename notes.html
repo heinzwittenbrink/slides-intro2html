@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Heinz Wittenbrink">
+  <meta name="dcterms.date" content="2018-11-23">
+  <title>notes intro2frontend</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://revealjs.com/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="https://revealjs.com/css/theme/white.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https://revealjs.com/css/print/pdf.css' : 'https://revealjs.com/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="https://revealjs.com/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">notes intro2frontend</h1>
+  <p class="author">Heinz Wittenbrink</p>
+  <p class="date">2018-11-23</p>
+</section>
+
+<section id="parsing" class="slide level1">
+<h1>parsing</h1>
+<p>by using HTML we make a document readable for a computer in order to make it usable for humans</p>
+</section>
+<section class="slide level1">
+
+<p>The different properties of HTML serve to make it parseable - the output is standardized and contains the information needed for further processing. By JavaScript information can be added to this output. CSS serves to present this (and only this) output. (Every textual content on the web can be formatted as HTML. )</p>
+</section>
+<section class="slide level1">
+
+<blockquote>
+<p>HTML is used to specify whether your web content should be recognized as a paragraph, list, heading, link, image, multimedia player, form, or one of many other available elements or even a new element that you define. <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML" title="Learning HTML: Guides and tutorials - Learn web development | MDN">Learning HTML: Guides and tutorials - Learn web development | MDN</a></p>
+</blockquote>
+</section>
+<section class="slide level1">
+
+<p>HTML serves to describe content</p>
+<p>Elements and tags: With tags you mark content up, with Elements are part of the DOM</p>
+</section>
+<section class="slide level1">
+
+<p>Upper case and lower case</p>
+<p>Nesting of elements -&gt; parsing HTML</p>
+</section>
+<section class="slide level1">
+
+<p>block elements and inline elements (block elements cannot be nested in inline elements) &gt; default CSS styling (CSS boxes: <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model#Types_of_CSS_boxes" title="The box model - Learn web development | MDN">The box model - Learn web development | MDN</a>)</p>
+</section>
+<section id="attributes" class="slide level1">
+<h1>Attributes:</h1>
+<p>id and class</p>
+<p>Boolean attributes</p>
+</section>
+<section class="slide level1">
+
+<p>Doctype declaration</p>
+<meta charset="utf-8">
+</section>
+<section class="slide level1">
+
+<p>Whitespace (good example for parsing)</p>
+<p>character references</p>
+<p>comments</p>
+</section>
+<section id="head" class="slide level1">
+<h1>head</h1>
+<p>What are metadata</p>
+</section>
+<section id="developer-tools" class="slide level1">
+<h1>Developer tools</h1>
+<p><a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools" title="What are browser developer tools? - Learn web development | MDN">What are browser developer tools? - Learn web development | MDN</a></p>
+</section>
+<section class="slide level1">
+
+<p>Github raw</p>
+<p>Code editor</p>
+</section>
+<section class="slide level1">
+
+<p>meta <code>author</code> and <code>description</code></p>
+<p>Configure site links in the search console? <a href="https://support.google.com/webmasters/answer/47334?hl=de" title="Sitelinks - Hilfe für Search Console">Sitelinks - Hilfe für Search Console</a></p>
+</section>
+<section class="slide level1">
+
+<p>open graph og:twitter;</p>
+<p>language tags <code>&lt;html lang=&quot;en-US&quot;&gt;</code></p>
+</section>
+<section id="text" class="slide level1">
+<h1>Text</h1>
+<p>Hierarchy</p>
+<p>h1</p>
+<p><a href="https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements" title="HTML Standard">HTML Standard</a></p>
+</section>
+<section class="slide level1">
+
+<p>syntax and semantics</p>
+<p>Presentational elements</p>
+</section>
+<section id="hyperlinks" class="slide level1">
+<h1>Hyperlinks</h1>
+<p>Linking to content and applications</p>
+<p>URLs</p>
+<p><code>../../</code> moving up in a diretory, command line</p>
+<p><code>id</code>-Attribute</p>
+</section>
+<section class="slide level1">
+
+<p>HTTP protocol and domain name (ports)</p>
+<p>Links best practices: Accessibility</p>
+<p><code>download</code> attribute to provide a default save filename</p>
+<p>URL query notation: <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#Specifying_details" title="Creating hyperlinks - Learn web development | MDN">Creating hyperlinks - Learn web development | MDN</a></p>
+</section>
+<section id="website-structure" class="slide level1">
+<h1>Website structure</h1>
+<p>Accessibility issues</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" title="HTML elements reference - HTML: HyperText Markup Language | MDN">HTML elements reference - HTML: HyperText Markup Language | MDN</a></p>
+<p>Non-semantic wrappers</p>
+</section>
+<section id="validation" class="slide level1">
+<h1>Validation</h1>
+</section>
+<section id="images-css-background-images-for-decorative-images-images-in-html---learn-web-development-mdn" class="slide level1">
+<h1>Images: CSS background images for decorative images: <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML#CSS_background_images" title="Images in HTML - Learn web development | MDN">Images in HTML - Learn web development | MDN</a></h1>
+<p>Video and Audio</p>
+<blockquote>
+<p>Including WebM and MP4 sources should be enough to play your video on most platforms and browsers these days.</p>
+</blockquote>
+<p>iframe example: disqus</p>
+<p>Iframe: embedding nur über HTTPS</p>
+<p>Responsive images <code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;</code></p>
+<p>device pixel and CSS pixel</p>
+<p>new image formats (such as WebP and JPEG-2000</p>
+</section>
+<section id="additional-stuff-for-friday" class="slide level1">
+<h1>Additional stuff for Friday</h1>
+</section>
+<section class="slide level1">
+
+<p>A list apart: How browsers work</p>
+<p>SVG and MathML</p>
+<p>Markdown</p>
+<p>Progressive Enhancement (and Graceful Degradation)</p>
+<p>URLs</p>
+<p>APIs</p>
+<p>Progressive Web Apps</p>
+<p>Validation</p>
+<p>JavaSript Frameworks</p>
+<p>AMP</p>
+</section>
+<section id="discussion" class="slide level1">
+<h1>Discussion</h1>
+<p>What is the open web and why is it important?</p>
+<p>Content strategy and the web</p>
+<p>Documentation</p>
+<ol start="2" type="1">
+<li>Web vs. other environments: What is characteristic for the web</li>
+</ol>
+<ul>
+<li>open standards</li>
+<li>Independence from software and hardware</li>
+<li>inclusiveness</li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="https://revealjs.com/lib/js/head.min.js"></script>
+  <script src="https://revealjs.com/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'https://revealjs.com/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://revealjs.com/plugin/zoom-js/zoom.js', async: true },
+          { src: 'https://revealjs.com/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
