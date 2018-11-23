@@ -6,15 +6,29 @@ date: 2018-11-23
 
 # Introduction
 
+---
+
 1. As content strategists we are in charge of content as a part of applications and services.
+
+---
 
 2 Content has to be described for machines in order to be used by humans.
 
+---
+
 3.HTML is the primary format or digital content.
+
+
+---
 
 4. As content responsibles we are in charge of steering the authoring, the management and the delivery of HTML formatted content.
 
+---
+
 5. The quality of the digital user experience depends directly or indirectly on the quality of the HTML describing our content.
+
+
+---
 
 6. The main factor of the technical quality of HTML is its semantic appropriateness.
 
