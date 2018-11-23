@@ -8,6 +8,44 @@ date: 2018-11-23
 
 ---
 
+# Examples
+
+[Accelerated Mobile Pages Project – AMP](https://www.ampproject.org/ "Accelerated Mobile Pages Project – AMP")
+
+[Washington Post – AMP](https://www.ampproject.org/case-studies/washingtonpost/ "Washington Post – AMP")
+
+[AMP Stories Code Example - Paul Shapiro's Search Wilderness](https://searchwilderness.com/amp-stories-code-example/#gref "AMP Stories Code Example - Paul Shapiro's Search Wilderness")
+
+---
+[What Beautiful HTML Code Looks Like | CSS-Tricks](https://css-tricks.com/what-beautiful-html-code-looks-like/ "What Beautiful HTML Code Looks Like | CSS-Tricks")
+
+[Exploring an HTML5 Example Document | Coding Dojo](https://www.codingdojo.com/blog/html5-examples/ "Exploring an HTML5 Example Document | Coding Dojo")
+
+[html - HTML5 best practices; section/header/aside/article elements - Stack Overflow](https://stackoverflow.com/questions/4781077/html5-best-practices-section-header-aside-article-elements "html - HTML5 best practices; section/header/aside/article elements - Stack Overflow")
+
+---
+
+[Adactio: Articles—The Design of HTML5](https://adactio.com/articles/1704 "Adactio: Articles—The Design of HTML5")
+
+[HTML5 For Web Designers by Jeremy Keith](https://html5forwebdesigners.com/ "HTML5 For Web Designers by Jeremy Keith")
+
+[How to Use Semantic HTML5 to Structure Your Page Correctly](https://www.semrush.com/blog/semantic-html5-guide/ "How to Use Semantic HTML5 to Structure Your Page Correctly")
+
+---
+# Semantic HTML - why?
+
+Good (semantic) HTML is
+
+- fast
+- easy to maintain
+- better searchable
+- device independent
+- accessible
+
+
+
+---
+
 1. As content strategists we are in charge of content as a part of applications and services.
 
 ---
