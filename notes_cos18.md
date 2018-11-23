@@ -4,11 +4,39 @@ author: Heinz Wittenbrink
 date: 2018-11-23
 ---
 
+# Plan for today
+
+12:00 - 13:00: Why HTML, Basics
+
+13:00 - 14:00 Break
+
+14:00 - 15:00 Document structure, authoring
+
+15:00 - 16:00 Layout, CSS, Role of JavaScript
+
+16:00 - 16:30 Break
+
+16:30 - 17:15 Metadata, schema.org   
+
+17:15 - 18:15 HTML, Web technology and content strategy
+
+18:15 - 19:00 Next steps, documentation
+
+
 # Introduction
 
 ---
 
 # Examples
+
+
+[A narcissist’s prayer of Thanksgiving. (My Glamorous Life) | Zeldman on Web & Interaction Design](http://www.zeldman.com/2018/11/18/a-narcissists-prayer-of-thanksgiving-my-glamorous-life/ "A narcissist’s prayer of Thanksgiving. (My Glamorous Life) | Zeldman on Web & Interaction Design")
+
+[Adactio: Links—Great Leap Years - Official site of Stephen Fry](https://adactio.com/links/14547 "Adactio: Links—Great Leap Years - Official site of Stephen Fry")
+
+
+---
+
 
 [Accelerated Mobile Pages Project – AMP](https://www.ampproject.org/ "Accelerated Mobile Pages Project – AMP")
 
@@ -17,11 +45,14 @@ date: 2018-11-23
 [AMP Stories Code Example - Paul Shapiro's Search Wilderness](https://searchwilderness.com/amp-stories-code-example/#gref "AMP Stories Code Example - Paul Shapiro's Search Wilderness")
 
 ---
+
 [What Beautiful HTML Code Looks Like | CSS-Tricks](https://css-tricks.com/what-beautiful-html-code-looks-like/ "What Beautiful HTML Code Looks Like | CSS-Tricks")
 
 [Exploring an HTML5 Example Document | Coding Dojo](https://www.codingdojo.com/blog/html5-examples/ "Exploring an HTML5 Example Document | Coding Dojo")
 
 [html - HTML5 best practices; section/header/aside/article elements - Stack Overflow](https://stackoverflow.com/questions/4781077/html5-best-practices-section-header-aside-article-elements "html - HTML5 best practices; section/header/aside/article elements - Stack Overflow")
+
+[An Overview of HTML5 Semantics by Michelle on CodePen](https://codepen.io/mi-lee/post/an-overview-of-html5-semantics "An Overview of HTML5 Semantics by Michelle on CodePen")
 
 ---
 
