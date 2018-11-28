@@ -6,6 +6,7 @@ date: 2018-11-23
 
 # Plan for today
 
+
 12:00 - 13:00: Why HTML, Basics
 
 13:00 - 14:00 Break
