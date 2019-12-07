@@ -2,7 +2,9 @@
 author: Heinz Wittenbrink
 title: HTML for content authors
 institute: M.A. program in content strategy
-date: 2017-11-07
+date: 2019-12-07
+bibliography: intro2html.bib
+link-citations: true
 ---
 
 # Standardization
@@ -92,7 +94,7 @@ Sources: @2017c, @2017b
  <li>United Kingdom
  <li>United States
  </ul>
- 
+
 <ol>
 <p>I have lived in the following countries:</p>
  <li>Switzerland
@@ -100,7 +102,7 @@ Sources: @2017c, @2017b
  <li>United States
  <li>Norway
  </ol>
- 
+
  <dl>
  <dt> Authors
  <dd> John
@@ -193,6 +195,18 @@ Siehe: [W3C QA - Recommended list of Doctype declarations you can use in your We
 
 # Validation
 
+## What is validation?
+
+> XML validation is the process of checking a document written in XML (eXtensible Markup Language) to confirm that it is both well-formed and also "valid" in that it follows a defined structure. Source: @XMLValidation2019
+
+---
+
+> A well-formed document follows the basic syntactic rules of XML, which are the same for all XML documents.
+
+> A valid document also respects the rules dictated by a particular DTD or XML schema. Source: @XMLValidation2019
+
+## Why validate?
+
 ## W3C Validation
 
 ![[The W3C Markup Validation Service](https://validator.w3.org/ "The W3C Markup Validation Service")](pics/w3c-markup-validation.png){ width=70% }
@@ -243,7 +257,7 @@ Siehe: [W3C QA - Recommended list of Doctype declarations you can use in your We
 ![Available snippets in the command palette](pics/snippets-available.png){ width=80% }
 
 
---- 
+---
 
 ## Command palette and snippets
 
@@ -289,4 +303,3 @@ Siehe: [W3C QA - Recommended list of Doctype declarations you can use in your We
 # Reference
 
 ---
-
