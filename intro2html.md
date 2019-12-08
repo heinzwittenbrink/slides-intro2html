@@ -195,9 +195,17 @@ Siehe: [W3C QA - Recommended list of Doctype declarations you can use in your We
 
 # Validation
 
+
+
 ## What is validation?
 
 > XML validation is the process of checking a document written in XML (eXtensible Markup Language) to confirm that it is both well-formed and also "valid" in that it follows a defined structure. Source: @XMLValidation2019
+
+::: notes
+
+HTML (and also XML) documents can be *validated*. That means: It can be automatically checked, whether a document complies with the rules for HTML. Of cause validation is important for authoring HTML documents. To validate a document during authoring makes it much easier to arrive at a correct&mdash;i.e. *valid*&mndash; document in the end. But this kind of validation is relevant because also software for processing HTML can validate a document. Google checks whether a document is valid uses the results for its evaluation of the quality of a document.
+
+:::
 
 ---
 
