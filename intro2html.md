@@ -195,17 +195,22 @@ Siehe: [W3C QA - Recommended list of Doctype declarations you can use in your We
 
 # Validation
 
-
-
 ## What is validation?
 
 > XML validation is the process of checking a document written in XML (eXtensible Markup Language) to confirm that it is both well-formed and also "valid" in that it follows a defined structure. Source: @XMLValidation2019
 
 ::: notes
 
-HTML (and also XML) documents can be *validated*. That means: It can be automatically checked, whether a document complies with the rules for HTML. Of cause validation is important for authoring HTML documents. To validate a document during authoring makes it much easier to arrive at a correct&mdash;i.e. *valid*&mndash; document in the end. But this kind of validation is relevant because also software for processing HTML can validate a document. Google checks whether a document is valid uses the results for its evaluation of the quality of a document.
+HTML (and also XML) documents can be *validated*. That means: It can be automatically checked, whether a document complies with the rules for HTML. Of course validation is important for authoring HTML documents. To validate a document while you are authoring it makes it much easier to arrive at a correct&mdash;i.e. *valid*&mdash; document in the end. But this kind of validation is relevant because also software for processing HTML can validate a document. Google checks whether a document is valid and uses the results for its evaluation of the quality of a document.
+
+To be sure that you have written *good* HTML you should always validate your documents. To do that you have to understand the messages of the validator. If you understand these messages you are always able to correct your document.
 
 :::
+
+## Introduction to Using the W3C Validation Service
+
+[![](pics/validation-khan-academy.png "Screenshot: Video of the Khan Academy about validation")](https://www.khanacademy.org/computing/computer-programming/html-css/html-css-further-learning/v/html-validation)
+
 
 ---
 
@@ -213,11 +218,32 @@ HTML (and also XML) documents can be *validated*. That means: It can be automati
 
 > A valid document also respects the rules dictated by a particular DTD or XML schema. Source: @XMLValidation2019
 
+::: notes
+
+These two quotes refer to XML which has stricter rules than HTML (except XHTML). We have two different levels of validity:
+
+1. the compliance with the general rules for the language. In the XML world this is called *well-formedness*. In HTML this means for instance that the elements are correctly embedded in an hierarchical way or that end tags are written with a slacg after the pointed bracket (`</`).
+2. Correct resp. required elements and attributes at a specific place. E.g.: Inside the `head` there must be a `title`; in the `body` the element `title` is forbidden.   
+
+:::
+
 ## Why validate?
+
+::: notes
+
+The W3C gives a good account of the reasons to validate HTML as an autor. [@XMLValidation2019]
+
+:::
 
 ## W3C Validation
 
 ![[The W3C Markup Validation Service](https://validator.w3.org/ "The W3C Markup Validation Service")](pics/w3c-markup-validation.png){ width=70% }
+
+::: notes
+
+The easiest tool to validate a document ist the Validation Service of the World Wide Web Consortium. You can upload a document or insert the URL.
+
+:::
 
 
 ## Browser Addons
@@ -225,6 +251,12 @@ HTML (and also XML) documents can be *validated*. That means: It can be automati
 - [Html Validator - Add-ons for Firefox](https://addons.mozilla.org/en-US/firefox/addon/html-validator/ "Html Validator - Add-ons for Firefox")
 
 - [Validity - Chrome Web Store](https://chrome.google.com/webstore/detail/validity/bbicmjjbohdfglopkidebfccilipgeif?hl=en-GB "Validity - Chrome Web Store")
+
+::: notes
+
+There are several other tools for validating a document. Maybe the most important ones are these browser plugins.
+
+:::
 
 ## HTML Tidy
 
