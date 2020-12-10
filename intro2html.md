@@ -2,7 +2,7 @@
 author: Heinz Wittenbrink
 title: HTML for content authors
 institute: M.A. program in content strategy
-date: 2019-12-07
+date: 2020-12-11
 bibliography: intro2html.bib
 link-citations: true
 ---
