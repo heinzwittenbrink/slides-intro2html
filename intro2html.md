@@ -7,6 +7,68 @@ bibliography: intro2html.bib
 link-citations: true
 ---
 
+# Targets
+
+- Understand HTML basics
+- Know how to publish a simple website
+- Understand tasks
+
+# HTML&mdash;What and Why?
+
+## Frontend Components
+
+- HTML
+- CSS
+- JavaScript
+- (Media)
+
+## HTML Rendering
+
+- Visual display on screens
+- Aural rendering by screenreaders
+
+## Rendering Engines
+
+- [Blink (Rendering Engine) - The Chromium Projects](https://www.chromium.org/blink "Blink (Rendering Engine) - The Chromium Projects")
+- [WebKit](https://webkit.org/ "WebKit")
+- [Gecko - Mozilla | MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Gecko "Gecko - Mozilla | MDN")
+- [Servo](https://servo.org/ "Servo")
+
+## HTML beyond the Website
+
+- Feeds (RSS, Atom)
+- Email
+
+## HTML Processing for Non-Humans
+
+- Search Engines
+- Text Processing
+
+## The Document Object Model
+
+- Standard-API for HTML Processing
+- Modelling of the Document as a Tree
+
+## HTML Syntax Basics
+
+- Descriptive markup: elements, attributes, comments
+- Features for human consumption
+- Features for processing by machines
+- HTML as a language for web applications
+
+## Good Practice for Content Authors
+
+- Semantic markup
+- Descriptive markup for human users
+- Hierarchical modelling
+
+
+## Characteristics
+
+- Living, extensible, *webby* standard
+- Closely related to other standards
+- Focused on accessibility and device-neutrality, *degrowth-fit*
+
 # Standardization
 
 
@@ -338,6 +400,15 @@ There are several other tools for validating a document. Maybe the most importan
 
 - [HTML5-Handbuch - Webkompetenz](http://webkompetenz.wikidot.com/docs:html-handbuch "HTML5-Handbuch - Webkompetenz")
 - [A Book Apart, HTML5 For Web Designers](https://abookapart.com/products/html5-for-web-designers "A Book Apart, HTML5 For Web Designers")
+
+
+# Publishing with GitHub
+
+## Introductions
+
+- [GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.](https://pages.github.com/ "GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.")
+- [Getting Started with GitHub Pages · GitHub Guides](https://guides.github.com/features/pages/ "Getting Started with GitHub Pages · GitHub Guides")
+- [Publish and share your own website for free with GitHub | by Scott Vinkle | Medium](https://medium.com/@svinkle/publish-and-share-your-own-website-for-free-with-github-2eff049a1cb5 "Publish and share your own website for free with GitHub | by Scott Vinkle | Medium")
 
 
 # Reference
