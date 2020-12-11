@@ -182,7 +182,7 @@
 <section id="html-beyond-the-website" class="slide level2">
 <h2>HTML beyond the Website</h2>
 <ul>
-<li>Feeds (RSS, Atom (<a href="https://wittenbrink.net/tt-rss/" title="Tiny Tiny RSS">Example</a>)</li>
+<li>Feeds: RSS, Atom (<a href="https://wittenbrink.net/tt-rss/" title="Tiny Tiny RSS">Example</a>), JSON</li>
 <li>Email</li>
 <li>Crippled HTML in Silos</li>
 </ul>
@@ -423,6 +423,34 @@
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true"></a>    &quot;-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN&quot;</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true"></a>    &quot;http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd&quot;<span class="dt">&gt;</span></span></code></pre></div>
 <p>Siehe: <a href="https://www.w3.org/QA/2002/04/valid-dtd-list.html" title="W3C QA - Recommended list of Doctype declarations you can use in your Web document">W3C QA - Recommended list of Doctype declarations you can use in your Web document</a></p>
+</section>
+<section class="slide level2">
+
+```html &lt;!DOCTYPE html&gt;
+<html lang="en">
+<head>
+<title>
+Sample page
+</title>
+</head>
+<body>
+<h1>
+Sample page
+</h1>
+<p>
+This is a <a href="demo.html">simple</a> sample.
+</p>
+<!-- this is a comment -->
+<!-- empty attributes -->
+<p><input name=address disabled> <input name=address disabled=""></p>
+<!-- attributes with a value -->
+<input name=address maxlength=200> <input name=address maxlength='200'> <input name=address maxlength="200">
+</body>
+</html>
+<p>Source:<a href="https://via.hypothes.is/https://html.spec.whatwg.org/multipage/introduction.html#a-quick-introduction-to-html" title="HTML Standard">HTML Standard</a></p>
+</section>
+<section class="slide level2">
+
 </section></section>
 <section>
 <section id="validation" class="title-slide slide level1">

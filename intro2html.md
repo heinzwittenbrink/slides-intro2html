@@ -72,7 +72,7 @@ link-citations: true
 
 ## HTML beyond the Website
 
-- Feeds (RSS, Atom ([Example](https://wittenbrink.net/tt-rss/ "Tiny Tiny RSS"))
+- Feeds: RSS, Atom ([Example](https://wittenbrink.net/tt-rss/ "Tiny Tiny RSS")), JSON
 - Email
 - Crippled HTML in Silos
 
@@ -295,6 +295,33 @@ Simple Explanation: w3schools: [HTML5 Semantic Elements](https://www.w3schools.c
 ```
 
 Siehe: [W3C QA - Recommended list of Doctype declarations you can use in your Web document](https://www.w3.org/QA/2002/04/valid-dtd-list.html "W3C QA - Recommended list of Doctype declarations you can use in your Web document")
+
+---
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Sample page</title>
+ </head>
+ <body>
+  <h1>Sample page</h1>
+  <p>This is a <a href="demo.html">simple</a> sample.</p>
+  <!-- this is a comment -->
+  <!-- empty attributes -->
+<input name=address disabled>
+<input name=address disabled="">
+
+<!-- attributes with a value -->
+<input name=address maxlength=200>
+<input name=address maxlength='200'>
+<input name=address maxlength="200">
+ </body>
+</html>
+
+Source:[HTML Standard](https://via.hypothes.is/https://html.spec.whatwg.org/multipage/introduction.html#a-quick-introduction-to-html "HTML Standard")
+
+---
 
 # Validation
 
