@@ -17,15 +17,23 @@ link-citations: true
 
 ## Frontend Components
 
-- HTML
-- CSS
-- JavaScript
+- HTML: Content
+- CSS: Presentation
+- JavaScript: Behaviour
 - (Media)
+
+## Example: Adactio
+
+- [Adactio: Jeremy Keith](https://adactio.com/ "Adactio: Jeremy Keith")
+- HTML: Source: <view-source:https://adactio.com/>
+- CSS: <view-source:https://adactio.com/skins/tatemodern/global.css?20200520>
+- JavaScript: <https://gist.github.com/adactio/d988edc418aabfa2220456dc548dedc1>
 
 ## HTML Rendering
 
 - Visual display on screens
 - Aural rendering by screenreaders
+- Braillereaders
 
 ## Rendering Engines
 
@@ -37,10 +45,12 @@ link-citations: true
 ## HTML beyond the Website
 
 - Feeds (RSS, Atom)
-- Email
+- Email 
+- Crippled HTML in Silos
 
 ## HTML Processing for Non-Humans
 
+- Browser
 - Search Engines
 - Text Processing
 
@@ -68,6 +78,22 @@ link-citations: true
 - Living, extensible, *webby* standard
 - Closely related to other standards
 - Focused on accessibility and device-neutrality, *degrowth-fit*
+
+
+
+# Design principles
+
+## Content first
+
+- Separation of content and presentation
+- Descriptive markup of content
+- Additional markup for machines
+
+## Progressive enhancement
+
+- Accessibility and future friendliness
+- Universal usability of the content
+- Device independence
 
 # Standardization
 
@@ -109,20 +135,6 @@ Source: @2017c
 - 2014: W3C-Specification [HTML5](https://www.w3.org/TR/2014/REC-html5-20141028/ "HTML5")
 
 Sources: @2017c, @2017b
-
-# Design principles
-
-## Content first
-
-- Separation of content and presentation
-- Descriptive markup of content
-- Additional markup for machines
-
-## Progressive enhancement
-
-- Accessibility and future friendliness
-- Universal usability of the content
-- Device independence
 
 # Basic elements for authoring text
 
@@ -307,6 +319,9 @@ The easiest tool to validate a document ist the Validation Service of the World 
 
 :::
 
+## WHATWG Validation / Conformance Checking
+
+[HTML Conformance Checkers — WHATWG](https://whatwg.org/validator/ "HTML Conformance Checkers — WHATWG")
 
 ## Browser Addons
 
@@ -411,6 +426,6 @@ There are several other tools for validating a document. Maybe the most importan
 - [Publish and share your own website for free with GitHub | by Scott Vinkle | Medium](https://medium.com/@svinkle/publish-and-share-your-own-website-for-free-with-github-2eff049a1cb5 "Publish and share your own website for free with GitHub | by Scott Vinkle | Medium")
 
 
-# Reference
+# References
 
 ---
