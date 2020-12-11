@@ -31,10 +31,17 @@ link-citations: true
 ---
 
 - Hyperlinks as essential feature
-- Easy and robust ("webby")
+- Easy and robust
 - Device independence
 - Accessibility
 - Sustainability and backwards compatibility
+
+
+## Characteristics of the Standard
+
+- Living, extensible, *webby*
+- Closely related to other standards
+- Focused on accessibility and device-neutrality, *degrowth-fit*
 
 ## Frontend Components
 
@@ -54,28 +61,32 @@ link-citations: true
 
 - Visual display on screens
 - Aural rendering by screenreaders
-- Braillereaders
+- Braille readers
 
 ## Rendering Engines
 
-- [Blink (Rendering Engine) - The Chromium Projects](https://www.chromium.org/blink "Blink (Rendering Engine) - The Chromium Projects")
+- [Blink (The Chromium Projects](https://www.chromium.org/blink "Blink (Rendering Engine) - The Chromium Projects")
 - [WebKit](https://webkit.org/ "WebKit")
 - [Gecko - Mozilla | MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Gecko "Gecko - Mozilla | MDN")
 - [Servo](https://servo.org/ "Servo")
 
 ## HTML beyond the Website
 
-- Feeds (RSS, Atom)
+- Feeds (RSS, Atom ([Example(https://wittenbrink.net/tt-rss/#f=-4&c=0 "Tiny Tiny RSS"))
 - Email
 - Crippled HTML in Silos
 
-## HTML Processing for Non-Humans
+## HTML Processing by Non-Humans
 
 - Browser
 - Search Engines
-- Text Processing
+- Text Processors
 
 ## The Document Object Model
+
+<a title="Taka, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:DOM-representation.png"><img width="128" alt="DOM-representation" src="https://upload.wikimedia.org/wikipedia/commons/2/28/DOM-representation.png"></a>
+
+---
 
 - Standard-API for HTML Processing
 - Modelling of the Document as a Tree
@@ -94,11 +105,6 @@ link-citations: true
 - Hierarchical modelling
 
 
-## Characteristics
-
-- Living, extensible, *webby* standard
-- Closely related to other standards
-- Focused on accessibility and device-neutrality, *degrowth-fit*
 
 
 
@@ -374,12 +380,20 @@ There are several other tools for validating a document. Maybe the most importan
 
 # HTML editing with Atom
 
+## Why text editors
+
+- HTML is stored in text filesl
+- Text editors manipulate the characters directly (equivalence of edited and stored characters)
+
+See: [Markup - why and how](https://heinzwittenbrink.github.io/slides-markupbasics/#/encoding-transforming-text-into-bytes "Markup - why and how")
+
 ## Atom as open source editor
 
 - Closely related to Github
 - Using state of the art web technologies
 - Extensiblie architecture
-- Free as in "free speech" and free as in "free beer"
+- Free as in "free speech" and free as in "free beer
+- Alternatives: [Visual Studio Code](https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"), [Die 13 besten HTML Editoren für Webentwickler(https://www.drweb.de/html-editoren/ "Die 13 besten HTML Editoren für Webentwickler (Update) - Dr. Web")
 
 ## Relevant core packages
 
@@ -445,6 +459,12 @@ There are several other tools for validating a document. Maybe the most importan
 - [GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.](https://pages.github.com/ "GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.")
 - [Getting Started with GitHub Pages · GitHub Guides](https://guides.github.com/features/pages/ "Getting Started with GitHub Pages · GitHub Guides")
 - [Publish and share your own website for free with GitHub | by Scott Vinkle | Medium](https://medium.com/@svinkle/publish-and-share-your-own-website-for-free-with-github-2eff049a1cb5 "Publish and share your own website for free with GitHub | by Scott Vinkle | Medium")
+
+## Automatically published:
+
+- Repository *username*/github.io
+- Branch gh-pages of every repository
+- Different branch if chosen in Settings
 
 
 # References
