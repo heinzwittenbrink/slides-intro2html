@@ -173,7 +173,7 @@
 <section id="rendering-engines" class="slide level2">
 <h2>Rendering Engines</h2>
 <ul>
-<li><a href="https://www.chromium.org/blink" title="Blink (Rendering Engine) - The Chromium Projects">Blink (The Chromium Projects</a></li>
+<li><a href="https://www.chromium.org/blink" title="Blink (Rendering Engine) - The Chromium Projects">Blink (The Chromium Project</a>)</li>
 <li><a href="https://webkit.org/" title="WebKit">WebKit</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Gecko" title="Gecko - Mozilla | MDN">Gecko - Mozilla | MDN</a></li>
 <li><a href="https://servo.org/" title="Servo">Servo</a></li>
@@ -182,7 +182,7 @@
 <section id="html-beyond-the-website" class="slide level2">
 <h2>HTML beyond the Website</h2>
 <ul>
-<li>Feeds (RSS, Atom ([Example(https://wittenbrink.net/tt-rss/#f=-4&amp;c=0 “Tiny Tiny RSS”))</li>
+<li>Feeds (RSS, Atom (<a href="https://wittenbrink.net/tt-rss/" title="Tiny Tiny RSS">Example</a>)</li>
 <li>Email</li>
 <li>Crippled HTML in Silos</li>
 </ul>
@@ -283,12 +283,11 @@
 <section id="history-of-the-standard-whatwg-w3c" class="slide level2">
 <h2>History of the standard: WhatWG, W3C</h2>
 <ul>
-<li>2004: Gründung der <a href="https://whatwg.org/" title="Web Hypertext Application Technology Working Group">Web Hypertext Application Technology Working Group</a>(WhatWG)</li>
+<li>2004: Founding of <a href="https://whatwg.org/" title="Web Hypertext Application Technology Working Group">Web Hypertext Application Technology Working Group</a>(WhatWG)</li>
 <li>since 2006: Cooperation of WhatWG and W3C</li>
-<li>July 2012: Degree of separation (WhatWG: HTML as living standard, W3C: Snapshots)</li>
 <li>2014: W3C-Specification <a href="https://www.w3.org/TR/2014/REC-html5-20141028/" title="HTML5">HTML5</a></li>
+<li>2019 <a href="https://www.w3.org/blog/news/archives/7753" title="W3C and the WHATWG signed an agreement to collaborate on a single version of HTML and DOM | W3C News">W3C and the WHATWG signed an agreement to collaborate on a single version of HTML and DOM</a></li>
 </ul>
-<p>Sources: <span class="citation" data-cites="2017c">(“HTML” <a href="#/ref-2017c" role="doc-biblioref">2017</a>)</span>, <span class="citation" data-cites="2017b">(“HTML5” <a href="#/ref-2017b" role="doc-biblioref">2017</a>)</span></p>
 </section></section>
 <section>
 <section id="basic-elements-for-authoring-text" class="title-slide slide level1">
@@ -319,31 +318,39 @@
 <li>Should not be used for presentatiion purposes</li>
 </ul>
 </section>
+<section id="links" class="slide level2">
+<h2>Links</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="kw">&lt;a</span><span class="ot"> href=</span><span class="st">&quot;https://google.com&quot;</span><span class="ot"> title=</span><span class="st">&quot;Google Search&quot;</span><span class="kw">&gt;</span>Google<span class="kw">&lt;/a&gt;</span></span></code></pre></div>
+<ul>
+<li>Links are the most important html elements</li>
+<li>They can reference document fragments</li>
+</ul>
+</section>
 <section id="lists" class="slide level2">
 <h2>Lists</h2>
-<div class="sourceCode" id="cb2"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="kw">&lt;p&gt;</span>I have lived in the following countries:<span class="kw">&lt;/p&gt;</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a><span class="kw">&lt;ul&gt;</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a> <span class="kw">&lt;li&gt;</span>Norway</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a> <span class="kw">&lt;li&gt;</span>Switzerland</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true"></a> <span class="kw">&lt;li&gt;</span>United Kingdom</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true"></a> <span class="kw">&lt;li&gt;</span>United States</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true"></a> <span class="kw">&lt;/ul&gt;</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true"></a></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true"></a><span class="kw">&lt;ol&gt;</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true"></a><span class="kw">&lt;p&gt;</span>I have lived in the following countries:<span class="kw">&lt;/p&gt;</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true"></a> <span class="kw">&lt;li&gt;</span>Switzerland</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true"></a> <span class="kw">&lt;li&gt;</span>United Kingdom</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true"></a> <span class="kw">&lt;li&gt;</span>United States</span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true"></a> <span class="kw">&lt;li&gt;</span>Norway</span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true"></a> <span class="kw">&lt;/ol&gt;</span></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true"></a></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true"></a> <span class="kw">&lt;dl&gt;</span></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true"></a> <span class="kw">&lt;dt&gt;</span> Authors</span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true"></a> <span class="kw">&lt;dd&gt;</span> John</span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true"></a> <span class="kw">&lt;dd&gt;</span> Luke</span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true"></a> <span class="kw">&lt;dt&gt;</span> Editor</span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true"></a> <span class="kw">&lt;dd&gt;</span> Frank</span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true"></a><span class="kw">&lt;/dl&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a><span class="kw">&lt;p&gt;</span>I have lived in the following countries:<span class="kw">&lt;/p&gt;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true"></a><span class="kw">&lt;ul&gt;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true"></a> <span class="kw">&lt;li&gt;</span>Norway</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true"></a> <span class="kw">&lt;li&gt;</span>Switzerland</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true"></a> <span class="kw">&lt;li&gt;</span>United Kingdom</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true"></a> <span class="kw">&lt;li&gt;</span>United States</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true"></a> <span class="kw">&lt;/ul&gt;</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true"></a><span class="kw">&lt;ol&gt;</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true"></a><span class="kw">&lt;p&gt;</span>I have lived in the following countries:<span class="kw">&lt;/p&gt;</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true"></a> <span class="kw">&lt;li&gt;</span>Switzerland</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true"></a> <span class="kw">&lt;li&gt;</span>United Kingdom</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true"></a> <span class="kw">&lt;li&gt;</span>United States</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true"></a> <span class="kw">&lt;li&gt;</span>Norway</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true"></a> <span class="kw">&lt;/ol&gt;</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true"></a> <span class="kw">&lt;dl&gt;</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true"></a> <span class="kw">&lt;dt&gt;</span> Authors</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true"></a> <span class="kw">&lt;dd&gt;</span> John</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true"></a> <span class="kw">&lt;dd&gt;</span> Luke</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true"></a> <span class="kw">&lt;dt&gt;</span> Editor</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true"></a> <span class="kw">&lt;dd&gt;</span> Frank</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true"></a><span class="kw">&lt;/dl&gt;</span></span></code></pre></div>
 <ul>
 <li>Three types: <code>ul</code>, <code>ol</code>, <code>dl</code></li>
 <li>List items can include other blog level elements</li>
@@ -352,45 +359,29 @@
 </section>
 <section id="tables" class="slide level2">
 <h2>Tables</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a><span class="kw">&lt;table&gt;</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true"></a> <span class="kw">&lt;caption&gt;</span>Characteristics with positive and negative sides<span class="kw">&lt;/caption&gt;</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true"></a> <span class="kw">&lt;thead&gt;</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true"></a>  <span class="kw">&lt;tr&gt;</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true"></a>   <span class="kw">&lt;th&gt;</span> Characteristic</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true"></a>   <span class="kw">&lt;th&gt;</span> Negative</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true"></a>   <span class="kw">&lt;th&gt;</span> Positive</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true"></a> <span class="kw">&lt;tbody&gt;</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true"></a>  <span class="kw">&lt;tr&gt;</span></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true"></a>   <span class="kw">&lt;th&gt;</span> Mood</span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true"></a>   <span class="kw">&lt;td&gt;</span> Sad</span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true"></a>   <span class="kw">&lt;td&gt;</span> Happy</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true"></a>  <span class="kw">&lt;tr&gt;</span></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true"></a>   <span class="kw">&lt;th&gt;</span> Grade</span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true"></a>   <span class="kw">&lt;td&gt;</span> Failing</span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true"></a>   <span class="kw">&lt;td&gt;</span> Passing</span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true"></a><span class="kw">&lt;/table&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a><span class="kw">&lt;table&gt;</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true"></a> <span class="kw">&lt;caption&gt;</span>Characteristics with positive and negative sides<span class="kw">&lt;/caption&gt;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true"></a> <span class="kw">&lt;thead&gt;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true"></a>  <span class="kw">&lt;tr&gt;</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true"></a>   <span class="kw">&lt;th&gt;</span> Characteristic</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true"></a>   <span class="kw">&lt;th&gt;</span> Negative</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true"></a>   <span class="kw">&lt;th&gt;</span> Positive</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true"></a> <span class="kw">&lt;tbody&gt;</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true"></a>  <span class="kw">&lt;tr&gt;</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true"></a>   <span class="kw">&lt;th&gt;</span> Mood</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true"></a>   <span class="kw">&lt;td&gt;</span> Sad</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true"></a>   <span class="kw">&lt;td&gt;</span> Happy</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true"></a>  <span class="kw">&lt;tr&gt;</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true"></a>   <span class="kw">&lt;th&gt;</span> Grade</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true"></a>   <span class="kw">&lt;td&gt;</span> Failing</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true"></a>   <span class="kw">&lt;td&gt;</span> Passing</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true"></a><span class="kw">&lt;/table&gt;</span></span></code></pre></div>
 <p>Example: <span class="citation" data-cites="zotero-2358590-5495">WhatWG (<a href="#/ref-zotero-2358590-5495" role="doc-biblioref">n.d.</a>)</span></p>
-</section>
-<section id="links" class="slide level2">
-<h2>Links</h2>
-<div class="sourceCode" id="cb4"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a><span class="kw">&lt;a</span><span class="ot"> href=</span><span class="st">&quot;https://google.com&quot;</span><span class="ot"> title=</span><span class="st">&quot;Google Search&quot;</span><span class="kw">&gt;</span>Google<span class="kw">&lt;/a&gt;</span></span></code></pre></div>
-<ul>
-<li>Links are the most important html elements</li>
-<li>They can reference document fragments</li>
-</ul>
 </section></section>
 <section>
 <section id="new-structural-elements-in-html5" class="title-slide slide level1">
 <h1>New Structural Elements in HTML5</h1>
 
-</section>
-<section id="div-and-span" class="slide level2">
-<h2>div and span</h2>
-<ul>
-<li><code>div</code> and <code>span</code> were (and are) used to structure HTML documents mainly for presentation purposes</li>
-<li>They serve as a base for <code>id</code> and <code>class</code>-attributes</li>
-<li>Their use has become obsolete by semantic HTML5 elements</li>
-</ul>
 </section>
 <section id="semantic-elements-in-html5" class="slide level2">
 <h2>Semantic Elements in HTML5</h2>
@@ -408,6 +399,14 @@
 <span id="cb5-12"><a href="#cb5-12" aria-hidden="true"></a><span class="kw">&lt;summary&gt;</span></span>
 <span id="cb5-13"><a href="#cb5-13" aria-hidden="true"></a><span class="kw">&lt;time&gt;</span></span></code></pre></div>
 <p>Simple Explanation: w3schools: <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" title="HTML5 Semantic Elements">HTML5 Semantic Elements</a></p>
+</section>
+<section id="div-and-span" class="slide level2">
+<h2>div and span</h2>
+<ul>
+<li><code>div</code> and <code>span</code> were (and are) used to structure HTML documents mainly for presentation purposes</li>
+<li>They serve as a base for <code>id</code> and <code>class</code>-attributes</li>
+<li>Their use has become obsolete by semantic HTML5 elements</li>
+</ul>
 </section></section>
 <section>
 <section id="html-and-xml" class="title-slide slide level1">
@@ -532,7 +531,7 @@
 <li>Using state of the art web technologies</li>
 <li>Extensiblie architecture</li>
 <li>Free as in “free speech” and free as in "free beer</li>
-<li>Alternatives: <a href="https://code.visualstudio.com/" title="Visual Studio Code - Code Editing. Redefined">Visual Studio Code</a>, [Die 13 besten HTML Editoren für Webentwickler(https://www.drweb.de/html-editoren/ “Die 13 besten HTML Editoren für Webentwickler (Update) - Dr. Web”)</li>
+<li>Alternatives: <a href="https://code.visualstudio.com/" title="Visual Studio Code - Code Editing. Redefined">Visual Studio Code</a>, <a href="https://www.drweb.de/html-editoren/" title="Die 13 besten HTML Editoren für Webentwickler (Update) - Dr. Web">HTML Editors for Developers (in German)</a></li>
 </ul>
 </section>
 <section id="relevant-core-packages" class="slide level2">
@@ -637,9 +636,6 @@
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
 <div id="ref-2017c">
 <p>“HTML.” 2017. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=HTML\&amp;oldid=808774297">https://en.wikipedia.org/w/index.php?title=HTML\&amp;oldid=808774297</a>.</p>
-</div>
-<div id="ref-2017b">
-<p>“HTML5.” 2017. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=HTML5\&amp;oldid=808861166">https://en.wikipedia.org/w/index.php?title=HTML5\&amp;oldid=808861166</a>.</p>
 </div>
 <div id="ref-XMLValidation2019">
 <p>W3C. n.d. “Why Validate?” <em>W3C Markup Validation Service</em>. <a href="https://validator.w3.org/docs/why.html">https://validator.w3.org/docs/why.html</a>.</p>

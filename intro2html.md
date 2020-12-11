@@ -65,14 +65,14 @@ link-citations: true
 
 ## Rendering Engines
 
-- [Blink (The Chromium Projects](https://www.chromium.org/blink "Blink (Rendering Engine) - The Chromium Projects")
+- [Blink (The Chromium Project](https://www.chromium.org/blink "Blink (Rendering Engine) - The Chromium Projects"))
 - [WebKit](https://webkit.org/ "WebKit")
 - [Gecko - Mozilla | MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Gecko "Gecko - Mozilla | MDN")
 - [Servo](https://servo.org/ "Servo")
 
 ## HTML beyond the Website
 
-- Feeds (RSS, Atom ([Example(https://wittenbrink.net/tt-rss/#f=-4&c=0 "Tiny Tiny RSS"))
+- Feeds (RSS, Atom ([Example](https://wittenbrink.net/tt-rss/ "Tiny Tiny RSS"))
 - Email
 - Crippled HTML in Silos
 
@@ -156,12 +156,10 @@ Source: @2017c
 
 ## History of the standard: WhatWG, W3C
 
-- 2004: Gründung der [Web Hypertext Application Technology Working Group](https://whatwg.org/ "Web Hypertext Application Technology Working Group")(WhatWG)
+- 2004: Founding of [Web Hypertext Application Technology Working Group](https://whatwg.org/ "Web Hypertext Application Technology Working Group")(WhatWG)
 - since 2006: Cooperation of WhatWG and W3C
-- July 2012: Degree of separation (WhatWG: HTML as living standard, W3C: Snapshots)
 - 2014: W3C-Specification [HTML5](https://www.w3.org/TR/2014/REC-html5-20141028/ "HTML5")
-
-Sources: @2017c, @2017b
+- 2019 [W3C and the WHATWG signed an agreement to collaborate on a single version of HTML and DOM](https://www.w3.org/blog/news/archives/7753 "W3C and the WHATWG signed an agreement to collaborate on a single version of HTML and DOM | W3C News")
 
 # Basic elements for authoring text
 
@@ -170,6 +168,7 @@ Sources: @2017c, @2017b
 - [Inline elements - HTML | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements "Inline elements - HTML | MDN")
 - [Block-level elements - HTML | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements "Block-level elements - HTML | MDN")
 - Important: The value of the `display`-property can be changed via CSS (see [display - CSS | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display "display - CSS | MDN"))
+
 
 ## Headings
 
@@ -184,6 +183,14 @@ Sources: @2017c, @2017b
 ```
 - Fundamental for structuring text
 - Should not be used for presentatiion purposes
+
+## Links
+
+```html
+<a href="https://google.com" title="Google Search">Google</a>
+```
+- Links are the most important html elements
+- They can reference document fragments
 
 ## Lists
 
@@ -241,22 +248,10 @@ Examples: @zotero-2358590-5495
 Example: @zotero-2358590-5495
 
 
-## Links
 
-
-```html
-<a href="https://google.com" title="Google Search">Google</a>
-```
-- Links are the most important html elements
-- They can reference document fragments
 
 # New Structural Elements in HTML5
 
-## div and span
-
-- `div` and `span` were (and are) used to structure HTML documents mainly for presentation purposes
-- They serve as a base for `id` and `class`-attributes
-- Their use has become obsolete by semantic HTML5 elements
 
 ## Semantic Elements in HTML5
 
@@ -278,6 +273,13 @@ Example: @zotero-2358590-5495
 ```
 
 Simple Explanation: w3schools: [HTML5 Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp "HTML5 Semantic Elements")
+
+
+## div and span
+
+- `div` and `span` were (and are) used to structure HTML documents mainly for presentation purposes
+- They serve as a base for `id` and `class`-attributes
+- Their use has become obsolete by semantic HTML5 elements
 
 # HTML and XML
 
@@ -393,7 +395,7 @@ See: [Markup - why and how](https://heinzwittenbrink.github.io/slides-markupbasi
 - Using state of the art web technologies
 - Extensiblie architecture
 - Free as in "free speech" and free as in "free beer
-- Alternatives: [Visual Studio Code](https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"), [Die 13 besten HTML Editoren für Webentwickler(https://www.drweb.de/html-editoren/ "Die 13 besten HTML Editoren für Webentwickler (Update) - Dr. Web")
+- Alternatives: [Visual Studio Code](https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"), [HTML Editors for Developers (in German)](https://www.drweb.de/html-editoren/ "Die 13 besten HTML Editoren für Webentwickler (Update) - Dr. Web")
 
 ## Relevant core packages
 
