@@ -322,7 +322,34 @@ Siehe: [W3C QA - Recommended list of Doctype declarations you can use in your We
 
 ```
 
-Source:[HTML Standard](https://via.hypothes.is/https://html.spec.whatwg.org/multipage/introduction.html#a-quick-introduction-to-html "HTML Standard")
+Source: [HTML Standard](https://via.hypothes.is/https://html.spec.whatwg.org/multipage/introduction.html#a-quick-introduction-to-html "HTML Standard")
+
+---
+
+```html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html lang="en">
+  <head>
+    <title>Sample page</title>
+  </head>
+ <body>
+  <h1>Sample page</h1>
+  <p>This is a <a href="demo.html">simple</a> sample.</p>
+  <!-- this is a comment -->
+  <!-- empty attributes -->
+<input name="address" disabled="0"/>
+
+<!-- attributes with a value -->
+
+<input name="address" maxlength="200"/>
+ </body>
+</html>
+
+```
+
+Source: [HTML Standard](https://via.hypothes.is/https://html.spec.whatwg.org/multipage/introduction.html#a-quick-introduction-to-html "HTML Standard")
 
 ---
 
