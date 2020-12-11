@@ -9,11 +9,30 @@ link-citations: true
 
 # Targets
 
-- Understand HTML basics
-- Know how to publish a simple website
+- Understanding of HTML basics
+- Knowing how to publish a simple static website via GitHub
 - Understand tasks
 
+# Task
+
+<blockquote class="trello-card"><a href="https://trello.com/c/AMDdswMr/119-task-5-development-of-a-small-website-workload-approx-25-hours-approx-10-to-15-hours-html-10-hours-css">Task 5: Development of a small website (Workload: approx. 25 hours (approx. 10 to 15 hours HTML, 10 hours CSS)</a></blockquote><script src="https://p.trellocdn.com/embed.min.js"></script
+
+- Lecture report: Semantic HTML
+- Book review: [Resilient Web Design](https://resilientwebdesign.com/ "Resilient Web Design")
+
 # HTML&mdash;What and Why?
+
+## The Language of the Web
+
+[The Web as Context for HTML](https://heinzwittenbrink.github.io/slides-historyofhypermedia/#/9/4 "A very short history of hypermedia")
+
+---
+
+- Hyperlinks as essential feature
+- Easy and robust ("webby")
+- Device independence
+- Accessibility
+- Sustainability and backwards compatibility
 
 ## Frontend Components
 
@@ -45,7 +64,7 @@ link-citations: true
 ## HTML beyond the Website
 
 - Feeds (RSS, Atom)
-- Email 
+- Email
 - Crippled HTML in Silos
 
 ## HTML Processing for Non-Humans
