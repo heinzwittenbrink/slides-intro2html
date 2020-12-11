@@ -13,11 +13,11 @@ link-citations: true
 
 - Understanding of HTML basics
 - Knowing how to publish a simple static website via GitHub
-- Understand tasks
+- Understanding of task(s)
 
 ## Task
 
-<blockquote class="trello-card"><a href="https://trello.com/c/AMDdswMr/119-task-5-development-of-a-small-website-workload-approx-25-hours-approx-10-to-15-hours-html-10-hours-css">Task 5: Development of a small website (Workload: approx. 25 hours (approx. 10 to 15 hours HTML, 10 hours CSS)</a></blockquote><script src="https://p.trellocdn.com/embed.min.js"></script
+<blockquote class="trello-card"><a href="https://trello.com/c/AMDdswMr/119-task-5-development-of-a-small-website-workload-approx-25-hours-approx-10-to-15-hours-html-10-hours-css">Task 5: Development of a small website (Workload: approx. 25 hours (approx. 10 to 15 hours HTML, 10 hours CSS)</a></blockquote>
 
 - Lecture report: Semantic HTML
 - Book review: [Resilient Web Design](https://resilientwebdesign.com/ "Resilient Web Design")
