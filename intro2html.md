@@ -53,8 +53,8 @@ link-citations: true
 ## Example: Adactio
 
 - [Adactio: Jeremy Keith](https://adactio.com/ "Adactio: Jeremy Keith")
-- HTML: Source: <view-source:https://adactio.com/>
-- CSS: <view-source:https://adactio.com/skins/tatemodern/global.css?20200520>
+- HTML: Source: view-source:<https://adactio.com/>
+- CSS: view-source:<https://adactio.com/skins/tatemodern/global.css?20200520>
 - JavaScript: <https://gist.github.com/adactio/d988edc418aabfa2220456dc548dedc1>
 
 ## HTML Rendering
